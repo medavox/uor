@@ -118,3 +118,43 @@ superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,s
 !drawio
 www.draw.io###geFooter
 www.draw.io##.geFooterContainer
+
+!wikipedia donation nags
+en.wikipedia.org###frbanner3
+en.wikipedia.org###frbanner-main
+en.wikipedia.org###frbanner-window
+en.wikipedia.org###frb-inline
+en.wikipedia.org##.frb-main
+en.wikipedia.org###frb-nag
+
+!know your meme
+knowyourmeme.com##.floating-keyboard-info
+
+sourceforge.net###newsletter-floating
+
+techcrunch.com##.close-button
+techcrunch.com##.share-main
+knowyourmeme.com##.floating-share-bar
+
+www.howtogeek.com###czloibebteurjqw
+www.howtogeek.com##.relatedside
+www.howtogeek.com##.relatedside:nth-of-type(3)
+www.howtogeek.com###secondary
+
+www.imdb.com###navProMenu
+
+www.last.fm##.mpu-subscription-upsell
+www.last.fm##.subscribe-cta
+
+www.amazon.co.uk##.a-spacing-small.prime-ad-banner-content.a-row
+www.amazon.co.uk###cbcc_content_container
+www.amazon.co.uk##.click_region
+www.amazon.co.uk###nav-upnav
+www.amazon.co.uk###nav-upnav > .nav-a
+
+answers.yahoo.com###yset-search-upsell-container
+
+imgur.com##.fixed.post-header
+
+my.tfgm.com###cookiesdirective
+
