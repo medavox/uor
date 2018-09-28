@@ -1,82 +1,57 @@
-! 9/2/2018, 10:54:23 AM
-www.quora.com##div.UnifiedAnswerPagedList:has(div:has-text( ad  by ))
-www.quora.com##div.pagedlist_item:has(div:has-text( promoted  by ))
-www.quora.com##div.pagedlist_item:has(div.logged_out_related_questions_container)
+!amazon
+www.amazon.co.uk##.a-spacing-small.prime-ad-banner-content.a-row
+www.amazon.co.uk###cbcc_content_container
+www.amazon.co.uk##.click_region
+www.amazon.co.uk###nav-upnav
+www.amazon.co.uk###nav-upnav > .nav-a
 
-!maybe obsolete
-www.quora.com##.BelowQuestionAddPrompt
-www.quora.com##.PromptsList
-www.quora.com##.condensed_ad_experiment.PromptsList
+!answers.yahoo.com
+answers.yahoo.com###yset-search-upsell-container
 
-! 8/16/2018, 2:30:26 PM
-newatlas.com##div>div>div>div>div>span>a:has-text(Continue this time)
+!blogspot
+blogspot.com###cookieChoiceInfo
 
-! 8/1/2018, 4:42:46 PM
-gitlab.com##li:has-text(Enable Auto DevOps)
-gitlab.com##.js-autodevops-banner
-gitlab.com##li:has-text(Add Kubernetes cluster)
-
-! 7/27/2018, 5:34:08 PM
-www.instagram.com##section:has(>div:has(>div:has(>span:has(>div:has-text(Log In to Instagram)))))
-
-!ultimate guitar: perfect, handcrafted rules
-tabs.ultimate-guitar.com##.ZAH4R,.js-tab-pro-tools
-ultimate-guitar.com##span:has-text(/upgrade to pro/i)
-ultimate-guitar.com##bidding-wrapper
-tabs.ultimate-guitar.com##div:has(>a[href^="https://www.ultimate-guitar.com/pro"])
-
-!other rules
-tabs.ultimate-guitar.com##.b-player-panel--timeline.pull-left
-tabs.ultimate-guitar.com##.inner.js-player-bottom-animation
-tabs.ultimate-guitar.com##.player_fixed
-tabs.ultimate-guitar.com##.txt.js-txt
-tabs.ultimate-guitar.com##.__youtube.b-player-fake-side.js-tpw-player-side
-||ultimate-guitar.com/static/public/js/ad/$script
-
-! 7/11/2018, 1:15:39 PM
-vimeo.com##.gdpr_banner
-
-! 7/14/2018, 3:38:00 PM
-stackoverflow.com##.js-dismissable-hero
-
-! 7/13/2018, 10:22:40 PM
-stackexchange.com###js-gdpr-consent-banner
-
-!old rules (maybe obsolete),but a god list of SO-family sites
-stackoverflow.com###hero-content
-stackexchange.com###hero-content
-askubuntu.com###hero-content
-superuser.com###hero-content
-mathoverflow.net###hero-content
-serverfault.com###hero-content
+!drawio
+www.draw.io###geFooter
+www.draw.io##.geFooterContainer
 
 !GitHub
 github.com##div:has(> h4:has-text(Discover repositories))
 github.com##.js-notice
 github.com##.rounded-1.signup-prompt-bg
 
-##script:contains(blockadblock)
+!gitLAB
+gitlab.com##li:has-text(Enable Auto DevOps)
+gitlab.com##.js-autodevops-banner
+gitlab.com##li:has-text(Add Kubernetes cluster)
 
-!wikia
-wikia.com##.featured-video__wrapper
-wikia.com##.is-collapsed.featured-video
-wikia.com##.wikia-bar-anon
-wikia.com###WikiaBar
+!gumtree
+www.gumtree.com###gdpr-banner
 
-!blogspot
-blogspot.com###cookieChoiceInfo
+!HowToGeek
+www.howtogeek.com###czloibebteurjqw
+www.howtogeek.com##.relatedside
+www.howtogeek.com##.relatedside:nth-of-type(3)
+www.howtogeek.com###secondary
 
-!hue tub
-www.youtube.com###ticker > .ytd-masthead.style-scope
-www.youtube.com###yt-consent-dialog
-www.youtube.com###yt-dialog-bg
-www.youtube.com##.ytp-ce-element
-www.youtube.com##.ytp-ce-element-show.ytp-ce-video.ytp-ce-element
+!IMDB
+www.imdb.com###navProMenu
 
-!tv tropes! even you?!
-tvtropes.org##div:has(div:has(h2:has-text(without ads)))
+!Imgur
+imgur.com##.fixed.post-header
 
-!medium. these rules are a bit adhoc, need thinning out
+!Instagram
+www.instagram.com##section:has(>div:has(>div:has(>span:has(>div:has-text(Log In to Instagram)))))
+
+!Know Your Meme
+knowyourmeme.com##.floating-keyboard-info
+knowyourmeme.com##.floating-share-bar
+
+!last.fm
+www.last.fm##.mpu-subscription-upsell
+www.last.fm##.subscribe-cta
+
+!Medium; these rules are a bit adhoc, need thinning out
 medium.com##.butterBar-message
 medium.com##.is-other.markup--p-quote.markup--quote
 medium.com##.is-visible.js-postActionsBar.uiScale-caption--regular.uiScale-ui--regular.uiScale.postActionsBar
@@ -87,9 +62,25 @@ medium.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fi
 medium.freecodecamp.org##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 medium.freecodecamp.org##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar
 
+!Pinterest
+www.pinterest.com###desktopWrapper
+www.pinterest.com##.FullPageModal__scroller
+
+!Quora
+www.quora.com##div.UnifiedAnswerPagedList:has(div:has-text( ad  by ))
+www.quora.com##div.pagedlist_item:has(div:has-text( promoted  by ))
+www.quora.com##div.pagedlist_item:has(div.logged_out_related_questions_container)
+!maybe obsolete
+www.quora.com##.BelowQuestionAddPrompt
+www.quora.com##.PromptsList
+www.quora.com##.condensed_ad_experiment.PromptsList
+
 !reddit
 reddit.com##.listingsignupbar
 reddit.com##.listingsignupbar.infobar
+
+!SourceForge
+sourceforge.net###newsletter-floating
 
 !stackexchange sites
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com###hero-content
@@ -105,19 +96,42 @@ superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,s
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##.community-bulletin.module
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com###left-sidebar
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com###overlay-header
-
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##._scrolling._fixed.js-so-header.so-header
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##._scrolling._fixed.js-top-bar.top-bar
-
 !are these rules necessary?
 !serverfault.com##.-container
 !serverfault.com##.top-bar
 !superuser.com##.top-bar
 !stackexchange.com##.top-bar
 
-!drawio
-www.draw.io###geFooter
-www.draw.io##.geFooterContainer
+!TechCrunch
+techcrunch.com##.close-button
+techcrunch.com##.share-main
+
+!TV Tropes! even you?!
+tvtropes.org##div:has(div:has(h2:has-text(without ads)))
+
+!Ultimate Guitar: perfect, handcrafted rules
+tabs.ultimate-guitar.com##.ZAH4R,.js-tab-pro-tools
+ultimate-guitar.com##span:has-text(/upgrade to pro/i)
+ultimate-guitar.com##bidding-wrapper
+tabs.ultimate-guitar.com##div:has(>a[href^="https://www.ultimate-guitar.com/pro"])
+!other rules
+tabs.ultimate-guitar.com##.b-player-panel--timeline.pull-left
+tabs.ultimate-guitar.com##.inner.js-player-bottom-animation
+tabs.ultimate-guitar.com##.player_fixed
+tabs.ultimate-guitar.com##.txt.js-txt
+tabs.ultimate-guitar.com##.__youtube.b-player-fake-side.js-tpw-player-side
+||ultimate-guitar.com/static/public/js/ad/$script
+
+!Vimeo
+vimeo.com##.gdpr_banner
+
+!wikia
+wikia.com##.featured-video__wrapper
+wikia.com##.is-collapsed.featured-video
+wikia.com##.wikia-bar-anon
+wikia.com###WikiaBar
 
 !wikipedia donation nags
 en.wikipedia.org###frbanner3
@@ -127,40 +141,17 @@ en.wikipedia.org###frb-inline
 en.wikipedia.org##.frb-main
 en.wikipedia.org###frb-nag
 
-!know your meme
-knowyourmeme.com##.floating-keyboard-info
+!YouTube
+www.youtube.com###ticker > .ytd-masthead.style-scope
+www.youtube.com###yt-consent-dialog
+www.youtube.com###yt-dialog-bg
+www.youtube.com##.ytp-ce-element
+www.youtube.com##.ytp-ce-element-show.ytp-ce-video.ytp-ce-element
 
-sourceforge.net###newsletter-floating
 
-techcrunch.com##.close-button
-techcrunch.com##.share-main
-knowyourmeme.com##.floating-share-bar
-
-www.howtogeek.com###czloibebteurjqw
-www.howtogeek.com##.relatedside
-www.howtogeek.com##.relatedside:nth-of-type(3)
-www.howtogeek.com###secondary
-
-www.imdb.com###navProMenu
-
-www.last.fm##.mpu-subscription-upsell
-www.last.fm##.subscribe-cta
-
-www.amazon.co.uk##.a-spacing-small.prime-ad-banner-content.a-row
-www.amazon.co.uk###cbcc_content_container
-www.amazon.co.uk##.click_region
-www.amazon.co.uk###nav-upnav
-www.amazon.co.uk###nav-upnav > .nav-a
-
-answers.yahoo.com###yset-search-upsell-container
-
-imgur.com##.fixed.post-header
-
+!smaller sites & misc
+##script:contains(blockadblock)
+www.ethnologue.com##.recurly-paywall-overlay
+newatlas.com##div>div>div>div>div>span>a:has-text(Continue this time)
 my.tfgm.com###cookiesdirective
 
-www.gumtree.com###gdpr-banner
-
-www.pinterest.com###desktopWrapper
-www.pinterest.com##.FullPageModal__scroller
-
-www.ethnologue.com##.recurly-paywall-overlay
