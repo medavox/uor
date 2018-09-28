@@ -158,3 +158,9 @@ imgur.com##.fixed.post-header
 
 my.tfgm.com###cookiesdirective
 
+www.gumtree.com###gdpr-banner
+
+www.pinterest.com###desktopWrapper
+www.pinterest.com##.FullPageModal__scroller
+
+www.ethnologue.com##.recurly-paywall-overlay
