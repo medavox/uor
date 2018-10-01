@@ -1,9 +1,17 @@
 !amazon
-www.amazon.co.uk##.a-spacing-small.prime-ad-banner-content.a-row
-www.amazon.co.uk###cbcc_content_container
-www.amazon.co.uk##.click_region
-www.amazon.co.uk###nav-upnav
-www.amazon.co.uk###nav-upnav > .nav-a
+amazon.co.uk##.a-declarative.a-modal-scroller
+amazon.co.uk###a-popover-4 > .a-popover-wrapper
+amazon.co.uk###a-popover-lgtbox
+amazon.co.uk##.a-spacing-small.prime-ad-banner-content.a-row
+amazon.co.uk###cbcc_banner
+amazon.co.uk###cbcc_content_container
+amazon.co.uk##.click_region
+amazon.co.uk###detail-ilm_div
+amazon.co.uk##.nav-prime-try
+amazon.co.uk###nav-upnav
+amazon.co.uk###nav-upnav > .nav-a
+amazon.co.uk##.prime-ship-speed
+amazon.co.uk##.s-hawkfire-stripe-container
 
 !answers.yahoo.com
 answers.yahoo.com###yset-search-upsell-container
@@ -11,9 +19,36 @@ answers.yahoo.com###yset-search-upsell-container
 !blogspot
 blogspot.com###cookieChoiceInfo
 
+!BusinessInsider
+uk.businessinsider.com##.fc-dialog-container.fc-root
+uk.businessinsider.com##.fc-dialog-overlay
+
+!CNET
+cnet.com###ad_uvpJs_1_player
+cnet.com##.pausedAtStartup
+cnet.com##.playerMessaging
+cnet.com##.popControls
+cnet.com###uvpJs_1
+cnet.com###uvpJs_1 > .popControls > .dragHandle > .title
+cnet.com##.videoBlocked
+
+!CNN
+cnn.com###aD3CD
+cnn.com###large-media_0 > .inbetweener-pinner--type2.js-inbetweener-pinner--type2
+cnn.com###player-large-media_0
+cnn.com##video
+
+!crunchbase
+crunchbase.com##.native-ads
+
 !drawio
 www.draw.io###geFooter
 www.draw.io##.geFooterContainer
+
+!DZone (annoyingly pestery yet ubiquitous java help site)
+dzone.com###emailSubPanel
+dzone.com##.signin-prompt
+dzone.com##.ng-scope.ng-binding
 
 !GitHub
 github.com##div:has(> h4:has-text(Discover repositories))
@@ -24,6 +59,7 @@ github.com##.rounded-1.signup-prompt-bg
 gitlab.com##li:has-text(Enable Auto DevOps)
 gitlab.com##.js-autodevops-banner
 gitlab.com##li:has-text(Add Kubernetes cluster)
+gitlab.com##.ide-right-sidebar
 
 !gumtree
 www.gumtree.com###gdpr-banner
@@ -51,16 +87,63 @@ knowyourmeme.com##.floating-share-bar
 www.last.fm##.mpu-subscription-upsell
 www.last.fm##.subscribe-cta
 
-!Medium; these rules are a bit adhoc, need thinning out
-medium.com##.butterBar-message
-medium.com##.is-other.markup--p-quote.markup--quote
-medium.com##.is-visible.js-postActionsBar.uiScale-caption--regular.uiScale-ui--regular.uiScale.postActionsBar
-medium.com##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
-medium.com##.overlay--lighter.overlay
-medium.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.js-metabar.u-clearfix.metabar
-medium.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar
-medium.freecodecamp.org##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
-medium.freecodecamp.org##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar
+!linkedIn
+linkedin.com###advocate-modal
+linkedin.com##.modal-va-fix
+
+!MakeUseOf
+makeuseof.com##.linked-out:nth-of-type(1) > .visible.link-callout
+makeuseof.com##.single-post-sidebar
+makeuseof.com##.visible.link-callout
+
+!Medium
+medium.com,hackernoon.com,medium.freecodecamp.org##.js-stickyFooter
+medium.com,hackernoon.com,medium.freecodecamp.org##.u-tintSpectrum
+medium.com,hackernoon.com,medium.freecodecamp.org##.js-metabar
+medium.com,hackernoon.com,medium.freecodecamp.org##.u-clearfix.metabar
+medium.com,hackernoon.com,medium.freecodecamp.org##.butterBar-message
+medium.com,hackernoon.com,medium.freecodecamp.org##.is-other.markup--p-quote.markup--quote
+medium.com,hackernoon.com,medium.freecodecamp.org##.js-postActionsBar
+medium.com,hackernoon.com,medium.freecodecamp.org##.postActionsBar
+medium.com,hackernoon.com,medium.freecodecamp.org##.overlay--lighter.overlay
+medium.com,hackernoon.com,medium.freecodecamp.org##.js-metabarMiddle
+medium.com,hackernoon.com,medium.freecodecamp.org##.js-postActionsBarContent
+medium.com,hackernoon.com,medium.freecodecamp.org##.metabar-block
+
+!old rules, before simplification. Restore these if the new ones don't work
+!hackernoon.com##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
+!hackernoon.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar
+!medium.com,hackernoon.com##.butterBar-message
+!medium.com,hackernoon.com##.is-other.markup--p-quote.markup--quote
+!medium.com,hackernoon.com##.is-visible.js-postActionsBar.uiScale-caption--regular.uiScale-ui--regular.uiScale.postActionsBar
+!medium.com,hackernoon.com,medium.freecodecamp.org##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
+!medium.com,hackernoon.com##.overlay--lighter.overlay
+!medium.com,hackernoon.com##.u-tintSpectrum
+!medium.com,hackernoon.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.js-metabar.u-clearfix.metabar
+!medium.com,hackernoon.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar
+!medium.com##.js-metabarMiddle
+!medium.com##.js-postActionsBarContent
+!medium.com##.overlay--lighter.overlay
+!medium.com##.u-flexCenter.u-flex1.metabar-block
+!medium.com##.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
+!medium.freecodecamp.org##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar
+
+!MetaCritic
+metacritic.com###ad_video_holder
+metacritic.com##.summary_trailer
+
+!Metro
+metro.co.uk##.just-in-list
+metro.co.uk##.thumbnail-link
+metro.co.uk##.trending-main
+metro.co.uk##.video-list
+metro.co.uk###widget-area-article-below-bottom-share
+metro.co.uk##.widget.metro-breaker
+metro.co.uk##.zone-post-strip
+
+!Pandoc site
+pandoc.org##main:style(max-width: 100% !important)
+pandoc.org##nav#navbar.navbar.nav:style(width: 300px !important)
 
 !Pinterest
 www.pinterest.com###desktopWrapper
@@ -78,6 +161,11 @@ www.quora.com##.condensed_ad_experiment.PromptsList
 !reddit
 reddit.com##.listingsignupbar
 reddit.com##.listingsignupbar.infobar
+reddit.com###eu-cookie-policy
+reddit.com##.onboardingbar.geopopularbar.infobar
+reddit.com##.seo-comments-flex
+reddit.com##.seo-comments-recommendations.spacer
+reddit.com##.spacer.seo-comments
 
 !SourceForge
 sourceforge.net###newsletter-floating
@@ -93,11 +181,13 @@ superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,s
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##.s-hero--container
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##.hero-container.s-hero
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com###clc-tlb
+superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com###dfp-tlb
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##.community-bulletin.module
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com###left-sidebar
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com###overlay-header
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##._scrolling._fixed.js-so-header.so-header
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##._scrolling._fixed.js-top-bar.top-bar
+superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##.unread-feature-notice.-feature-notice
 !are these rules necessary?
 !serverfault.com##.-container
 !serverfault.com##.top-bar
@@ -110,6 +200,8 @@ techcrunch.com##.share-main
 
 !TV Tropes! even you?!
 tvtropes.org##div:has(div:has(h2:has-text(without ads)))
+
+!twitter
 
 !Ultimate Guitar: perfect, handcrafted rules
 tabs.ultimate-guitar.com##.ZAH4R,.js-tab-pro-tools
@@ -127,11 +219,18 @@ tabs.ultimate-guitar.com##.__youtube.b-player-fake-side.js-tpw-player-side
 !Vimeo
 vimeo.com##.gdpr_banner
 
+!WatchCartoonOnline.io
+watchcartoononline.io##iframe[src="javascript: frameElement.srcdoc"]
+
 !wikia
 wikia.com##.featured-video__wrapper
 wikia.com##.is-collapsed.featured-video
 wikia.com##.wikia-bar-anon
 wikia.com###WikiaBar
+wikia.com##.video-container
+wikia.com##.wikia-bar-anon.wikia-bar
+wikia.com###WikiaBarWrapper
+wikia.com###WikiaRail
 
 !wikipedia donation nags
 en.wikipedia.org###frbanner3
@@ -145,8 +244,10 @@ en.wikipedia.org###frb-nag
 www.youtube.com###ticker > .ytd-masthead.style-scope
 www.youtube.com###yt-consent-dialog
 www.youtube.com###yt-dialog-bg
+www.youtube.com##ytd-metadata-row-header-renderer
 www.youtube.com##.ytp-ce-element
 www.youtube.com##.ytp-ce-element-show.ytp-ce-video.ytp-ce-element
+www.youtube.com##ytd-compact-video-renderer:has-text(Recommended)
 
 
 !smaller sites & misc
@@ -154,4 +255,7 @@ www.youtube.com##.ytp-ce-element-show.ytp-ce-video.ytp-ce-element
 www.ethnologue.com##.recurly-paywall-overlay
 newatlas.com##div>div>div>div>div>span>a:has-text(Continue this time)
 my.tfgm.com###cookiesdirective
+
+!todo:pre-emptively block elements whose class name contains the word 'modal'
+
 
