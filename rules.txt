@@ -248,6 +248,7 @@ www.youtube.com##ytd-metadata-row-header-renderer
 www.youtube.com##.ytp-ce-element
 www.youtube.com##.ytp-ce-element-show.ytp-ce-video.ytp-ce-element
 www.youtube.com##ytd-compact-video-renderer:has-text(Recommended)
+www.youtube.com##ytd-compact-video-renderer:has(ytd-badge-supported-renderer:has-text(New))
 
 
 !smaller sites & misc
