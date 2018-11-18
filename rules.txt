@@ -250,6 +250,8 @@ www.youtube.com##.ytp-ce-element-show.ytp-ce-video.ytp-ce-element
 www.youtube.com##ytd-compact-video-renderer:has-text(Recommended)
 www.youtube.com##ytd-compact-video-renderer:has(ytd-badge-supported-renderer:has-text(New))
 www.youtube.com##.iv-promo
+www.youtube.com###watch-checkout-offers
+www.youtube.com###offer-module
 
 
 !smaller sites & misc
