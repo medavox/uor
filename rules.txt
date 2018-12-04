@@ -50,6 +50,9 @@ dzone.com###emailSubPanel
 dzone.com##.signin-prompt
 dzone.com##.ng-scope.ng-binding
 
+!google search
+www.google.com##div#searchform:style(position:absolute !important)
+
 !GitHub
 github.com##div:has(> h4:has-text(Discover repositories))
 github.com##.js-notice
