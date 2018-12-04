@@ -1,6 +1,6 @@
 !Android Developers
-developer.android.com##article.devsite-article:style(width:100% !important)
-developer.android.com##article.devsite-article:style(margin-left:0px !important)
+developer.android.com/reference/##article.devsite-article:style(width:100% !important)
+developer.android.com/reference/##article.devsite-article:style(margin-left:0px !important)
 
 !amazon
 amazon.co.uk##.a-declarative.a-modal-scroller
