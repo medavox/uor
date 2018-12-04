@@ -1,3 +1,7 @@
+!Android Developers
+developer.android.com##article.devsite-article:style(width:100% !important)
+developer.android.com##article.devsite-article:style(margin-left:0px !important)
+
 !amazon
 amazon.co.uk##.a-declarative.a-modal-scroller
 amazon.co.uk###a-popover-4 > .a-popover-wrapper
