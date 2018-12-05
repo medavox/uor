@@ -54,6 +54,9 @@ dzone.com###emailSubPanel
 dzone.com##.signin-prompt
 dzone.com##.ng-scope.ng-binding
 
+!FOSSHub
+www.fosshub.com###adLocation
+
 !GameFAQs
 gamefaqs.gamespot.com###faq_header_wrap
 
@@ -156,6 +159,12 @@ metro.co.uk###widget-area-article-below-bottom-share
 metro.co.uk##.widget.metro-breaker
 metro.co.uk##.zone-post-strip
 
+!MySpace!
+myspace.com###termsOfService
+
+!Open University
+www.open.edu##div.header_content.fix-header:style(position:absolute !important)
+
 !Oracle
 oracle.com##[id^=pop-div]
 
@@ -235,6 +244,7 @@ tabs.ultimate-guitar.com##.txt.js-txt
 tabs.ultimate-guitar.com##.__youtube.b-player-fake-side.js-tpw-player-side
 ultimate-guitar.com##.js-bounce-message
 ||ultimate-guitar.com/static/public/js/ad/$script
+ultimate-guitar.com##.ad-layer-start
 
 !Vimeo
 vimeo.com##.gdpr_banner
@@ -266,13 +276,14 @@ www.youtube.com###yt-consent-dialog
 www.youtube.com###yt-dialog-bg
 www.youtube.com##ytd-metadata-row-header-renderer
 www.youtube.com##.ytp-ce-element
+www.youtube.com##.ytp-cards-teaser-text
 www.youtube.com##.ytp-ce-element-show.ytp-ce-video.ytp-ce-element
 www.youtube.com##ytd-compact-video-renderer:has-text(Recommended)
 www.youtube.com##ytd-compact-video-renderer:has(ytd-badge-supported-renderer:has-text(New))
 www.youtube.com##.iv-promo
 www.youtube.com###watch-checkout-offers
 www.youtube.com###offer-module
-
+www.youtube.com##ytd-compact-movie-renderer
 
 !smaller sites & misc
 ##script:contains(blockadblock)
