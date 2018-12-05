@@ -54,6 +54,9 @@ dzone.com###emailSubPanel
 dzone.com##.signin-prompt
 dzone.com##.ng-scope.ng-binding
 
+!GameFAQs
+gamefaqs.gamespot.com###faq_header_wrap
+
 !google search
 www.google.com##div#searchform:style(position:absolute !important)
 
@@ -149,6 +152,9 @@ metro.co.uk###widget-area-article-below-bottom-share
 metro.co.uk##.widget.metro-breaker
 metro.co.uk##.zone-post-strip
 
+!Oracle
+oracle.com##[id^=pop-div]
+
 !Pandoc site
 pandoc.org##main:style(max-width: 100% !important)
 pandoc.org##nav#navbar.navbar.nav:style(width: 300px !important)
@@ -190,6 +196,7 @@ superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,s
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##.s-hero--container
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##.hero-container.s-hero
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com###clc-tlb
+superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com###announcement-banner
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com###dfp-tlb
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##.community-bulletin.module
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com###left-sidebar
