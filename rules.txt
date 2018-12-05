@@ -127,24 +127,6 @@ medium.com,hackernoon.com,medium.freecodecamp.org##.js-metabarMiddle
 medium.com,hackernoon.com,medium.freecodecamp.org##.js-postActionsBarContent
 medium.com,hackernoon.com,medium.freecodecamp.org##.metabar-block
 
-!old rules, before simplification. Restore these if the new ones don't work
-!hackernoon.com##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
-!hackernoon.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar
-!medium.com,hackernoon.com##.butterBar-message
-!medium.com,hackernoon.com##.is-other.markup--p-quote.markup--quote
-!medium.com,hackernoon.com##.is-visible.js-postActionsBar.uiScale-caption--regular.uiScale-ui--regular.uiScale.postActionsBar
-!medium.com,hackernoon.com,medium.freecodecamp.org##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
-!medium.com,hackernoon.com##.overlay--lighter.overlay
-!medium.com,hackernoon.com##.u-tintSpectrum
-!medium.com,hackernoon.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.js-metabar.u-clearfix.metabar
-!medium.com,hackernoon.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar
-!medium.com##.js-metabarMiddle
-!medium.com##.js-postActionsBarContent
-!medium.com##.overlay--lighter.overlay
-!medium.com##.u-flexCenter.u-flex1.metabar-block
-!medium.com##.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
-!medium.freecodecamp.org##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar
-
 !MetaCritic
 metacritic.com###ad_video_holder
 metacritic.com##.summary_trailer
