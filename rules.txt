@@ -138,6 +138,7 @@ medium.com,hackernoon.com,medium.freecodecamp.org##.metabar-block
 !MetaCritic
 metacritic.com###ad_video_holder
 metacritic.com##.summary_trailer
+metacritic.com##.video_wrapper
 
 !Metro
 metro.co.uk##.just-in-list
