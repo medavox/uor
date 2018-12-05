@@ -71,6 +71,10 @@ gitlab.com##.js-autodevops-banner
 gitlab.com##li:has-text(Add Kubernetes cluster)
 gitlab.com##.ide-right-sidebar
 
+!gradle website
+gradle.org##policy-text
+gradle.org##.ckcontent
+
 !gumtree
 www.gumtree.com###gdpr-banner
 
