@@ -295,6 +295,9 @@ en.wikipedia.org###frb-nag
 wired.com##.close-container
 wired.com##.cm-failsafe
 
+!Yahoo Answers
+answers.yahoo.com###yset-search-upsell-container
+
 !YouTube
 www.youtube.com###ticker > .ytd-masthead.style-scope
 www.youtube.com###yt-consent-dialog
