@@ -222,6 +222,7 @@ tabs.ultimate-guitar.com##.inner.js-player-bottom-animation
 tabs.ultimate-guitar.com##.player_fixed
 tabs.ultimate-guitar.com##.txt.js-txt
 tabs.ultimate-guitar.com##.__youtube.b-player-fake-side.js-tpw-player-side
+ultimate-guitar.com##.js-bounce-message
 ||ultimate-guitar.com/static/public/js/ad/$script
 
 !Vimeo
