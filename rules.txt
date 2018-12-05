@@ -21,7 +21,7 @@ amazon.co.uk##.s-hawkfire-stripe-container
 answers.yahoo.com###yset-search-upsell-container
 
 !blogspot
-blogspot.com###cookieChoiceInfo
+blogspot.com,backofthecerealbox.com###cookieChoiceInfo
 
 !BusinessInsider
 uk.businessinsider.com##.fc-dialog-container.fc-root
@@ -251,6 +251,10 @@ en.wikipedia.org###frbanner-window
 en.wikipedia.org###frb-inline
 en.wikipedia.org##.frb-main
 en.wikipedia.org###frb-nag
+
+!Wired
+wired.com##.close-container
+wired.com##.cm-failsafe
 
 !YouTube
 www.youtube.com###ticker > .ytd-masthead.style-scope
