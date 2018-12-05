@@ -1,6 +1,6 @@
 !Android Developers
-developer.android.com/reference/##article.devsite-article:style(width:100% !important)
-developer.android.com/reference/##article.devsite-article:style(margin-left:0px !important)
+developer.android.com/reference/##article.devsite-article:style(width:100% !important ; margin-left:0px !important)
+developer.android.com##.devsite-notification-eu-cookie.devsite-dialog.devsite-notification-promo
 
 !amazon
 amazon.co.uk##.a-declarative.a-modal-scroller
@@ -14,6 +14,7 @@ amazon.co.uk###detail-ilm_div
 amazon.co.uk##.nav-prime-try
 amazon.co.uk###nav-upnav
 amazon.co.uk###nav-upnav > .nav-a
+amazon.co.uk###detail-ilm_div
 amazon.co.uk##.prime-ship-speed
 amazon.co.uk##.s-hawkfire-stripe-container
 
@@ -49,6 +50,9 @@ crunchbase.com##.native-ads
 www.draw.io###geFooter
 www.draw.io##.geFooterContainer
 
+!DuckDuckGo
+duckduckgo.com##.badge-link--newsletter
+
 !DZone (annoyingly pestery yet ubiquitous java help site)
 dzone.com###emailSubPanel
 dzone.com##.signin-prompt
@@ -60,8 +64,12 @@ www.fosshub.com###adLocation
 !GameFAQs
 gamefaqs.gamespot.com###faq_header_wrap
 
+!GamePedia
+gamepedia.com###tos-banner
+
 !google search
-www.google.com##div#searchform:style(position:absolute !important)
+www.google.co*##div#searchform:style(position:absolute !important)
+www.google.co*##.widget-consent-fullscreen
 
 !GitHub
 github.com##div:has(> h4:has-text(Discover repositories))
@@ -73,6 +81,9 @@ gitlab.com##li:has-text(Enable Auto DevOps)
 gitlab.com##.js-autodevops-banner
 gitlab.com##li:has-text(Add Kubernetes cluster)
 gitlab.com##.ide-right-sidebar
+
+!GoodReads
+goodreads.com##.modal
 
 !gradle website
 gradle.org##policy-text
@@ -96,6 +107,14 @@ imgur.com##.fixed.post-header
 !Instagram
 www.instagram.com##section:has(>div:has(>div:has(>span:has(>div:has-text(Log In to Instagram)))))
 
+!Java Code Geeks
+javacodegeeks.com###snppopup-welcome
+javacodegeeks.com##.cc_container--open.cc_container.cc_banner
+javacodegeeks.com##.sidebar
+javacodegeeks.com###snp-bld-step-1
+javacodegeeks.com##.fb-top.shadow.foobar-wrapper.x-white
+javacodegeeks.com##.foobar-container
+
 !Know Your Meme
 knowyourmeme.com##.floating-keyboard-info
 knowyourmeme.com##.floating-share-bar
@@ -114,18 +133,21 @@ makeuseof.com##.single-post-sidebar
 makeuseof.com##.visible.link-callout
 
 !Medium
-medium.com,hackernoon.com,medium.freecodecamp.org##.js-stickyFooter
-medium.com,hackernoon.com,medium.freecodecamp.org##.u-tintSpectrum
-medium.com,hackernoon.com,medium.freecodecamp.org##.js-metabar
-medium.com,hackernoon.com,medium.freecodecamp.org##.u-clearfix.metabar
-medium.com,hackernoon.com,medium.freecodecamp.org##.butterBar-message
-medium.com,hackernoon.com,medium.freecodecamp.org##.is-other.markup--p-quote.markup--quote
-medium.com,hackernoon.com,medium.freecodecamp.org##.js-postActionsBar
-medium.com,hackernoon.com,medium.freecodecamp.org##.postActionsBar
-medium.com,hackernoon.com,medium.freecodecamp.org##.overlay--lighter.overlay
-medium.com,hackernoon.com,medium.freecodecamp.org##.js-metabarMiddle
-medium.com,hackernoon.com,medium.freecodecamp.org##.js-postActionsBarContent
-medium.com,hackernoon.com,medium.freecodecamp.org##.metabar-block
+medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.butterBar-message
+medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.highlightMenu
+medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.is-other.markup--p-quote.markup--quote
+medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.js-metabar
+medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.js-metabarMiddle
+medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.js-meterBanner
+medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.js-postActionsBar
+medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.js-postActionsBarContent
+medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.js-stickyFooter
+medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.overlay--lighter.overlay
+medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.metabar-block
+medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.metabar
+medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.postActionsBar
+medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.u-clearfix.metabar
+medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.u-tintSpectrum
 
 !MetaCritic
 metacritic.com###ad_video_holder
@@ -150,9 +172,17 @@ www.open.edu##div.header_content.fix-header:style(position:absolute !important)
 !Oracle
 oracle.com##[id^=pop-div]
 
+!Outlook Live
+outlook.live.com##._n_i
+outlook.live.com##._n_h
+
 !Pandoc site
 pandoc.org##main:style(max-width: 100% !important)
 pandoc.org##nav#navbar.navbar.nav:style(width: 300px !important)
+
+!PasteBin
+pastebin.com###abrpm
+pastebin.com###notice
 
 !Pinterest
 www.pinterest.com###desktopWrapper
@@ -176,6 +206,11 @@ reddit.com##.onboardingbar.geopopularbar.infobar
 reddit.com##.seo-comments-flex
 reddit.com##.seo-comments-recommendations.spacer
 reddit.com##.spacer.seo-comments
+
+!SoundCloud
+soundcloud.com##.m-sidebar
+soundcloud.com##.soundBadgeList__item
+soundcloud.com##.usersList__item
 
 !SourceForge
 sourceforge.net###newsletter-floating
@@ -208,10 +243,14 @@ superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,s
 techcrunch.com##.close-button
 techcrunch.com##.share-main
 
+!tumblr
+tumblr.com##.road-block
+
 !TV Tropes! even you?!
 tvtropes.org##div:has(div:has(h2:has-text(without ads)))
 
 !twitter
+!twitter.com###permalink-overlay
 
 !Ultimate Guitar: perfect, handcrafted rules
 tabs.ultimate-guitar.com##.ZAH4R,.js-tab-pro-tools
