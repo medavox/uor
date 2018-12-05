@@ -201,7 +201,7 @@ superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,s
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##.community-bulletin.module
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com###left-sidebar
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com###overlay-header
-superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##header.top-bar:style(position:absolute !important)
+superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##header.top-bar:style(position:absolute !important ; margin-top:0px)
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##.unread-feature-notice.-feature-notice
 !are these rules necessary?
 !serverfault.com##.-container
