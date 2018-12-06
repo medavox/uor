@@ -133,7 +133,7 @@ makeuseof.com##.single-post-sidebar
 makeuseof.com##.visible.link-callout
 
 !Medium
-medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.butterBar-message, .highlightMenu, .is-other.markup--p-quote.markup--quote, .js-metabar, .js-metabarMiddle, .js-meterBanner, .js-postActionsBar, .js-postActionsBarContent, .js-stickyFooter, .overlay--lighter.overlay, .metabar-block, .metabar, .postActionsBar, .u-clearfix.metabar, .u-tintSpectrum
+medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co,proandroiddev.com##.butterBar-message, .highlightMenu, .is-other.markup--p-quote.markup--quote, .js-metabar, .js-metabarMiddle, .js-meterBanner, .js-postActionsBar, .js-postActionsBarContent, .js-stickyFooter, .overlay--lighter.overlay, .metabar-block, .metabar, .postActionsBar, .u-clearfix.metabar, .u-tintSpectrum
 !medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.butterBar-message
 !medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.highlightMenu
 !medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.is-other.markup--p-quote.markup--quote
