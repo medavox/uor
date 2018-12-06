@@ -133,21 +133,22 @@ makeuseof.com##.single-post-sidebar
 makeuseof.com##.visible.link-callout
 
 !Medium
-medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.butterBar-message
-medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.highlightMenu
-medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.is-other.markup--p-quote.markup--quote
-medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.js-metabar
-medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.js-metabarMiddle
-medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.js-meterBanner
-medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.js-postActionsBar
-medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.js-postActionsBarContent
-medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.js-stickyFooter
-medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.overlay--lighter.overlay
-medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.metabar-block
-medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.metabar
-medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.postActionsBar
-medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.u-clearfix.metabar
-medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.u-tintSpectrum
+medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.butterBar-message, .highlightMenu, .is-other.markup--p-quote.markup--quote, .js-metabar, .js-metabarMiddle, .js-meterBanner, .js-postActionsBar, .js-postActionsBarContent, .js-stickyFooter, .overlay--lighter.overlay, .metabar-block, .metabar, .postActionsBar, .u-clearfix.metabar, .u-tintSpectrum
+!medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.butterBar-message
+!medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.highlightMenu
+!medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.is-other.markup--p-quote.markup--quote
+!medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.js-metabar
+!medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.js-metabarMiddle
+!medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.js-meterBanner
+!medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.js-postActionsBar
+!medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.js-postActionsBarContent
+!medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.js-stickyFooter
+!medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.overlay--lighter.overlay
+!medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.metabar-block
+!medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.metabar
+!medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.postActionsBar
+!medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.u-clearfix.metabar
+!medium.com,hackernoon.com,medium.freecodecamp.org,code.likeagirl.io,theestablishment.co##.u-tintSpectrum
 
 !MetaCritic
 metacritic.com###ad_video_holder
