@@ -312,6 +312,7 @@ www.youtube.com##.iv-promo
 www.youtube.com###watch-checkout-offers
 www.youtube.com###offer-module
 www.youtube.com##ytd-compact-movie-renderer
+www.youtube.com###merch-shelf
 
 !smaller sites & misc
 ##script:contains(blockadblock)
