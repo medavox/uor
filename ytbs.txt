@@ -1,0 +1,19 @@
+! YouTube Bullshit
+! not advertisements or nuisances,
+! but just annoying content
+
+youtube.com###dismissable:has-text(/AmazingAtheist/i)
+youtube.com###dismissable:has-text(/Armoured Skeptic/i)
+youtube.com###dismissable:has-text(/CultOfDusty/i)
+youtube.com###dismissable:has-text(/Farage/i)
+youtube.com###dismissable:has-text(/SJW/i)
+youtube.com###dismissable:has-text(/Trump/i)
+youtube.com###dismissable:has-text(/UKIP/i)
+youtube.com###dismissable:has-text(/jontron/i)
+youtube.com###dismissable:has-text(/joyner lucas/i)
+youtube.com###dismissable:has-text(/remoaner/i)
+youtube.com###dismissable:has-text(/sargon/i)
+youtube.com###dismissable:has-text(/Jordan Peterson/i)
+youtube.com###dismissable:has-text(/Ben Shapiro/i)
+youtube.com###dismissable:has-text(/Apologist/i)
+youtube.com###dismissable:has-text(/socialist/i)
