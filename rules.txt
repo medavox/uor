@@ -191,6 +191,7 @@ www.pinterest.com##.FullPageModal__scroller
 
 !Quora
 www.quora.com##div.UnifiedAnswerPagedList:has(div:has-text( ad  by ))
+www.quora.com##div.UnifiedAnswerPagedList:has(div.promoted_answer_wrapper)
 www.quora.com##div.pagedlist_item:has(div:has-text( promoted  by ))
 www.quora.com##div.pagedlist_item:has(div:has-text(sponsored  by ))
 www.quora.com##div.pagedlist_item:has(a[target="_blank"])
