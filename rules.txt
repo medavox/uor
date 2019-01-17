@@ -190,11 +190,15 @@ www.pinterest.com###desktopWrapper
 www.pinterest.com##.FullPageModal__scroller
 
 !Quora
-www.quora.com##div.UnifiedAnswerPagedList:has(div:has-text( ad  by ))
+!latest rules, 17 jan 2019
 www.quora.com##div.UnifiedAnswerPagedList:has(div.promoted_answer_wrapper)
+www.quora.com##div.pagedlist_item:has(a[target="_blank"])
+
+!slightly older rules, 2018ish
+www.quora.com##div.UnifiedAnswerPagedList:has(div:has-text( ad  by ))
 www.quora.com##div.pagedlist_item:has(div:has-text( promoted  by ))
 www.quora.com##div.pagedlist_item:has(div:has-text(sponsored  by ))
-www.quora.com##div.pagedlist_item:has(a[target="_blank"])
+
 www.quora.com##div.pagedlist_item:has(div.logged_out_related_questions_container)
 !maybe obsolete
 www.quora.com##.BelowQuestionAddPrompt
