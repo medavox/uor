@@ -323,7 +323,7 @@ www.youtube.com##ytd-compact-movie-renderer
 www.youtube.com###merch-shelf
 
 !smaller sites & misc
-##script:contains(blockadblock)
+##^script:has-text(blockadblock)
 www.ethnologue.com##.recurly-paywall-overlay
 newatlas.com##div>div>div>div>div>span>a:has-text(Continue this time)
 my.tfgm.com###cookiesdirective
