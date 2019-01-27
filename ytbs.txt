@@ -20,3 +20,5 @@ youtube.com###dismissable:has-text(/socialist/i)
 youtube.com###dismissable:has-text(/Jacob Rees-Mogg/i)
 youtube.com###dismissable:has-text(/DESTROY/)
 youtube.com###dismissable:has-text(/DISMANTLE/)
+
+www.youtube.com##a.ytp-videowall-still:has-text(/Jordan Peterson/i)
