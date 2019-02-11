@@ -1,6 +1,8 @@
-! YouTube Bullshit
-! not advertisements or nuisances,
-! but just annoying content
+! Title: YouTube Bullshit filter
+! Description: Hides annoying bullshit content. The sort that talks about taking things back, or making things great again.
+! Expires: 10 days
+! Licence: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
+! Homepage: https://github.com/medavox/uor
 
 youtube.com###dismissable,a.ytp-videowall-still:has-text(/AmazingAtheist/i)
 youtube.com###dismissable,a.ytp-videowall-still:has-text(/Armoured Skeptic/i)
