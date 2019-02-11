@@ -17,6 +17,7 @@ amazon.co.uk###nav-upnav > .nav-a
 amazon.co.uk###detail-ilm_div
 amazon.co.uk##.prime-ship-speed
 amazon.co.uk##.s-hawkfire-stripe-container
+amazon.co.uk##.scene_container
 
 !answers.yahoo.com
 answers.yahoo.com###yset-search-upsell-container
