@@ -24,4 +24,8 @@ youtube.com###dismissable,a.ytp-videowall-still:has-text(/DESTROY/)
 youtube.com###dismissable,a.ytp-videowall-still:has-text(/DISMANTLE/)
 youtube.com###dismissable,a.ytp-videowall-still:has-text(/leftists/i)
 
+!hide videos that use ALL CAPS in their titles; they 're usually clickbaity bullshit
+youtube.com###dismissable:has(#video-title:has-text(/[A-Z]{4,}/))
+youtube.com##a.ytp-videowall-still:has(.ytp-videowall-still-info-title:has-text(/[A-Z]{4,}/))
+
 ! channel 'Big Think': worth blocking?
