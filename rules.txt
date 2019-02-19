@@ -328,6 +328,8 @@ www.youtube.com###watch-checkout-offers
 www.youtube.com###offer-module
 www.youtube.com##ytd-compact-movie-renderer
 www.youtube.com###merch-shelf
+www.youtube.com##ytd-popup-container.ytd-app.style-scope > .ytd-popup-container.style-scope
+www.youtube.com###button:has-text(/JOIN/i)
 
 !smaller sites & misc
 ##^script:has-text(blockadblock)
