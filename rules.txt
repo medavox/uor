@@ -196,7 +196,7 @@ www.quora.com##div.promoted_answer_wrapper
 !the equivalent non-deprecated syntax :not(:has()) doesn't seem to work. I welcome any tips on :not() usage.
 www.quora.com##div.UnifiedAnswerPagedList:if-not(span>a:has-text(Answered))
 www.quora.com##div.pagedlist_item:has(div.promoted_answer_wrapper)
-www.quora.com##div.pagedlist_item:has(a[target="_blank"])
+!www.quora.com##div.pagedlist_item:has(a[target="_blank"])
 
 !blocked the first answer, which contains an advert inside the div.UnifiedAnswerPagedList
 !www.quora.com##div.UnifiedAnswerPagedList:has(a[target="_blank"])
