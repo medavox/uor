@@ -1,0 +1,14 @@
+! Title: YouTube Distraction-Free emulation
+! Description: Hides distracting or annoying YouTube UI elements.
+! Expires: 10 days
+! Licence: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
+! Homepage: https://github.com/medavox/uor
+
+! The 'Next' button, situated peevishly close to the play/pause button
+www.youtube.com##.ytp-button.ytp-next-button
+
+! 'Miniplayer' button, which, when accidentally clicked, shrinks your video and subjects you to the latest marketed horrors of the front page
+www.youtube.com##.ytp-button.ytp-miniplayer-button
+
+! hide the sidebar
+www.youtube.com###dismissable
