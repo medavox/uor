@@ -221,10 +221,10 @@ reddit.com##.seo-comments-flex
 reddit.com##.seo-comments-recommendations.spacer
 reddit.com##.spacer.seo-comments
 
-!SoundCloud
-soundcloud.com##.m-sidebar
-soundcloud.com##.soundBadgeList__item
-soundcloud.com##.usersList__item
+!SoundButt
+soundbutt.com##.m-sidebar
+soundbutt.com##.soundBadgeList__item
+soundbutt.com##.usersList__item
 
 !SourceForge
 sourceforge.net###newsletter-floating
@@ -337,6 +337,11 @@ www.ethnologue.com##.recurly-paywall-overlay
 newatlas.com##div>div>div>div>div>span>a:has-text(Continue this time)
 my.tfgm.com###cookiesdirective
 35.225.234.73
+
+!PatientAccess' obnoxious blog posts, pushed in your face while ordering a presciption. Stop trying to influence me
+app.patientaccess.com##.grid__row--trending
+app.patientaccess.com##.db-trending-topics-wrapper
+
 
 !todo:pre-emptively block elements whose class name contains the word 'modal'
 
