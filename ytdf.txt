@@ -11,4 +11,4 @@ www.youtube.com##.ytp-button.ytp-next-button
 www.youtube.com##.ytp-button.ytp-miniplayer-button
 
 ! hide the sidebar
-youtube.com##div#related www.youtube.com###dismissable
+youtube.com##div#related #dismissable
