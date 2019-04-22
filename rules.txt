@@ -76,6 +76,7 @@ www.google.co*##.widget-consent-fullscreen
 github.com##div:has(> h4:has-text(Discover repositories))
 github.com##.js-notice
 github.com##.rounded-1.signup-prompt-bg
+github.com##.sticky-content
 
 !gitLAB
 gitlab.com##li:has-text(Enable Auto DevOps)
