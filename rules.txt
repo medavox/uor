@@ -220,6 +220,7 @@ reddit.com##.onboardingbar.geopopularbar.infobar
 reddit.com##.seo-comments-flex
 reddit.com##.seo-comments-recommendations.spacer
 reddit.com##.spacer.seo-comments
+www.reddit.com##form:has-text(Cookies help us)
 
 !SoundButt
 soundbutt.com##.m-sidebar
