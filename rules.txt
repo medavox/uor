@@ -335,7 +335,6 @@ www.youtube.com##ytd-popup-container.ytd-app.style-scope > .ytd-popup-container.
 www.youtube.com###button:has-text(/JOIN/i)
 
 !smaller sites & misc
-##^script:has-text(blockadblock)
 www.ethnologue.com##.recurly-paywall-overlay
 newatlas.com##div>div>div>div>div>span>a:has-text(Continue this time)
 my.tfgm.com###cookiesdirective
@@ -349,3 +348,5 @@ app.patientaccess.com##.db-trending-topics-wrapper
 !todo:pre-emptively block elements whose class name contains the word 'modal'
 
 
+!see issue #1
+!##^script:has-text(blockadblock)
