@@ -77,6 +77,7 @@ github.com##div:has(> h4:has-text(Discover repositories))
 github.com##.js-notice
 github.com##.rounded-1.signup-prompt-bg
 github.com##.sticky-content
+github.com##div.my-2.py-2
 
 !gitLAB
 gitlab.com##li:has-text(Enable Auto DevOps)
