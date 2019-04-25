@@ -285,6 +285,11 @@ ultimate-guitar.com##.js-bounce-message
 ||ultimate-guitar.com/static/public/js/ad/$script
 ultimate-guitar.com##.ad-layer-start
 
+!Urban Dictionary
+!hides giant SVG icons to improve text-only experience
+www.urbandictionary.com##div#urban-top-bar
+www.urbandictionary.com##div.def-panel > div.def-footer
+
 !Vimeo
 vimeo.com##.gdpr_banner
 
