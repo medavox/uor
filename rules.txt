@@ -19,6 +19,9 @@ amazon.co.uk##.prime-ship-speed
 amazon.co.uk##.s-hawkfire-stripe-container
 amazon.co.uk##.scene_container
 
+!android Authority
+www.androidauthority.com##div#sticky-bar.fixed:style(position: static !important)
+
 !answers.yahoo.com
 answers.yahoo.com###yset-search-upsell-container
 
