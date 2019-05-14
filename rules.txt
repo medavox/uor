@@ -248,6 +248,7 @@ superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,s
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##div#content:style(width: 100% !important)
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##.dno.js-feature-notice-dialog.feature-notice-dialog.topbar-dialog
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##.mb16
+superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##[data-tracker="cb=1"]
 
 !pre rule-merger
 !superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com###hero-content
