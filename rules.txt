@@ -234,10 +234,10 @@ reddit.com##.seo-comments-recommendations.spacer
 reddit.com##.spacer.seo-comments
 www.reddit.com##form:has-text(Cookies help us)
 
-!SoundButt
-soundbutt.com##.m-sidebar
-soundbutt.com##.soundBadgeList__item
-soundbutt.com##.usersList__item
+!SoundCloud
+soundcloud.com##.m-sidebar
+soundcloud.com##.soundBadgeList__item
+soundcloud.com##.usersList__item
 
 !SourceForge
 sourceforge.net###newsletter-floating
