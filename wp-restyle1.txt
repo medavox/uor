@@ -1,0 +1,6 @@
+!wikipedia restyle: move the sidebar to the top, to make more horizontal space for the article content
+en.wikipedia.org##div#content.mw-body:style(margin-left: 0em !important ; margin-top: 10em !important)
+en.wikipedia.org##div#mw-panel:style(display: flex)
+en.wikipedia.org##div#left-navigation:style(margin-left: 2em !important)
+en.wikipedia.org##div#mw-head:style(top: 8em !important)
+en.wikipedia.org##div#right-navigation div#p-views:style(float: none !important)
