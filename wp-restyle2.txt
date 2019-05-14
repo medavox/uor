@@ -1,0 +1,4 @@
+!simpler wikipedia restyle: flow the article around the sidebar
+!(achieved by restyling an empty <a> element within the content div to provide the gap
+en.wikipedia.org##div#content.mw-body:style(margin-left: 0em !important)
+en.wikipedia.org##a#top:style(width:11em; float:left; height:1050px)
