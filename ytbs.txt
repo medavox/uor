@@ -30,4 +30,8 @@ youtube.com###dismissable,a.ytp-videowall-still:has-text(/leftists/i)
 !if I'm elsewhere, I've probably chosen to view these videos (eg on a channel's Videos page)
 youtube.com##div#related #dismissable:has(#video-title:has-text(/[A-Z]{4,}/))
 
+!another clickbait video blocker: block videos whose titles contain 'this' or 'these'
+youtube.com##div#related #dismissable:has(#video-title:has-text(/this /i))
+youtube.com##div#related #dismissable:has(#video-title:has-text(/these /i))
+
 ! channel 'Big Think': worth blocking?
