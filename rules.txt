@@ -305,6 +305,8 @@ ultimate-guitar.com##.ad-layer-start
 www.ultimate-guitar.com##article>div>div>div:has-text(Official version created by UG Guitar Team)
 www.ultimate-guitar.com##article>div>div>div:has-text(Official version created by UG Guitar Team) + div
 www.ultimate-guitar.com##article>div>div>div:has-text(Official version created by UG Guitar Team) + div +div
+www.ultimate-guitar.com##a[href^="https://www.ultimate-guitar.com/pro"]
+
 
 !Urban Dictionary
 !hides giant SVG icons to improve text-only experience
