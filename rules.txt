@@ -7,6 +7,21 @@
 !Android Developers
 developer.android.com/reference/##article.devsite-article:style(width:100% !important ; margin-left:0px !important)
 developer.android.com##.devsite-notification-eu-cookie.devsite-dialog.devsite-notification-promo
+!this blocks all scripts
+||www.gstatic.com^$script,domain=developer.android.com
+!these 3 exceptions are needed for the site to work at all: some kind of shitty-practice javascript-to-apply-styles cack
+@@||www.gstatic.com/devrel-devsite/*/js/app_loader.js$script,domain=developer.android.com
+@@||www.gstatic.com/devrel-devsite/*/js/webcomponents-lite.js$script,domain=developer.android.com
+@@||www.gstatic.com/devrel-devsite/*/android/js/devsite_app.js$script,domain=developer.android.com
+! this gets rid of that fucking stupid randomly expanding & contracting bar, whose only purpose seems to be to say YOU ARE READING DEVELOPER DOCUMENTATION
+developer.android.com##.devsite-product-id-row
+!this blocks all stylesheets
+||www.gstatic.com/devrel-devsite/*/css/*.css$stylesheet,domain=developer.android.com
+!this lets the main stylesheet through the css block
+@@||www.gstatic.com/devrel-devsite/*/android/css/app.css$stylesheet,domain=developer.android.com
+!this gives us the handy little floating right-hand menu to navigate between the instance fields & methods of the current class
+@@||www.gstatic.com/devrel-devsite/*/js/devsite_heading_module.js$script,domain=developer.android.com
+
 
 !amazon
 amazon.co.uk##.a-declarative.a-modal-scroller
