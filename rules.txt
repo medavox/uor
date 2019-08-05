@@ -1,3 +1,9 @@
+! Title: medavox's uBlock Origin Rules list
+! Description: Lovingly handcrafted ad- and annoyance-blocking rules by your favourite nobody developer
+! Expires: 10 days
+! Licence: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
+! Homepage: https://github.com/medavox/uor
+
 !Android Developers
 developer.android.com/reference/##article.devsite-article:style(width:100% !important ; margin-left:0px !important)
 developer.android.com##.devsite-notification-eu-cookie.devsite-dialog.devsite-notification-promo
