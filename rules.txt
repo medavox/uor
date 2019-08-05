@@ -296,6 +296,9 @@ tabs.ultimate-guitar.com##.__youtube.b-player-fake-side.js-tpw-player-side
 ultimate-guitar.com##.js-bounce-message
 ||ultimate-guitar.com/static/public/js/ad/$script
 ultimate-guitar.com##.ad-layer-start
+www.ultimate-guitar.com##article>div>div>div:has-text(Official version created by UG Guitar Team)
+www.ultimate-guitar.com##article>div>div>div:has-text(Official version created by UG Guitar Team) + div
+www.ultimate-guitar.com##article>div>div>div:has-text(Official version created by UG Guitar Team) + div +div
 
 !Urban Dictionary
 !hides giant SVG icons to improve text-only experience
