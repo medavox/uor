@@ -4,6 +4,11 @@
 ! Licence: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Homepage: https://github.com/medavox/uor
 
+!GLOBAL RULES
+!block any element that tries to follow you round the page.
+!these days, these are usually just pests
+##*:matches-css(position:fixed)
+
 !Android Developers
 developer.android.com/reference/##article.devsite-article:style(width:100% !important ; margin-left:0px !important)
 developer.android.com##.devsite-notification-eu-cookie.devsite-dialog.devsite-notification-promo
