@@ -26,6 +26,8 @@ developer.android.com##.devsite-product-id-row
 @@||www.gstatic.com/devrel-devsite/*/android/css/app.css$stylesheet,domain=developer.android.com
 !this gives us the handy little floating right-hand menu to navigate between the instance fields & methods of the current class
 @@||www.gstatic.com/devrel-devsite/*/js/devsite_heading_module.js$script,domain=developer.android.com
+!this gives syntax highlighting for code snippets
+@@||www.gstatic.com/devrel-devsite/*/js/devsite_code_module.js$script,domain=developer.android.com
 !I mean it's a static fucking reference site. You don't need to load 8 JS files asynchronously.
 
 
