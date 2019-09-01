@@ -96,6 +96,7 @@ dzone.com##.ng-scope.ng-binding
 
 !Fandom.com
 fandom.com##body:style(overflow:visible !important)
+fandom.com##div:has(div>div:has-text(This Site Uses Cookies))
 !old rules copied from Wikia
 fandom.com##.featured-video__wrapper
 fandom.com##.is-collapsed.featured-video
