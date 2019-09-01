@@ -94,6 +94,18 @@ dzone.com###emailSubPanel
 dzone.com##.signin-prompt
 dzone.com##.ng-scope.ng-binding
 
+!Fandom.com
+fandom.com##body:style(overflow:visible !important)
+!old rules copied from Wikia
+fandom.com##.featured-video__wrapper
+fandom.com##.is-collapsed.featured-video
+fandom.com##.fandom-bar-anon
+fandom.com###WikiaBar
+fandom.com##.video-container
+fandom.com##.fandom-bar-anon.fandom-bar
+fandom.com###WikiaBarWrapper
+fandom.com###WikiaRail
+
 !FOSSHub
 www.fosshub.com###adLocation
 
