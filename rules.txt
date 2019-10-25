@@ -96,17 +96,18 @@ dzone.com##.signin-prompt
 dzone.com##.ng-scope.ng-binding
 
 !Fandom.com
-fandom.com##body:style(overflow:visible !important)
-fandom.com##div:has(div>div:has-text(This Site Uses Cookies))
-!old rules copied from Wikia
-fandom.com##.featured-video__wrapper
-fandom.com##.is-collapsed.featured-video
-fandom.com##.fandom-bar-anon
-fandom.com###WikiaBar
-fandom.com##.video-container
-fandom.com##.fandom-bar-anon.fandom-bar
-fandom.com###WikiaBarWrapper
-fandom.com###WikiaRail
+fandom.com,wikia.com###WikiaBar
+fandom.com,wikia.com###WikiaBarWrapper
+fandom.com,wikia.com###WikiaRail
+fandom.com,wikia.com##.fandom-bar-anon
+fandom.com,wikia.com##.fandom-bar-anon.fandom-bar
+fandom.com,wikia.com##.featured-video__wrapper
+fandom.com,wikia.com##.is-collapsed.featured-video
+fandom.com,wikia.com##.video-container
+fandom.com,wikia.com##.wikia-bar-anon
+fandom.com,wikia.com##.wikia-bar-anon.wikia-bar
+fandom.com,wikia.com##body:style(overflow:visible !important)
+fandom.com,wikia.com##div:has(div>div:has-text(This Site Uses Cookies))
 
 !FOSSHub
 www.fosshub.com###adLocation
@@ -357,14 +358,7 @@ vimeo.com##.gdpr_banner
 watchcartoononline.io##iframe[src="javascript: frameElement.srcdoc"]
 
 !wikia
-wikia.com##.featured-video__wrapper
-wikia.com##.is-collapsed.featured-video
-wikia.com##.wikia-bar-anon
-wikia.com###WikiaBar
-wikia.com##.video-container
-wikia.com##.wikia-bar-anon.wikia-bar
-wikia.com###WikiaBarWrapper
-wikia.com###WikiaRail
+!see Fandom
 
 !wikipedia donation nags
 en.wikipedia.org###frbanner3
