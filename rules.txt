@@ -9,6 +9,10 @@
 !these days, these are usually just pests
 ##*:matches-css(position:fixed)
 
+!cookie dialog wrapper. This is so standard that I almost think they want it to be blocked
+###ez-cookie-dialog
+###ez-cookie-dialog-wrapper
+
 !Android Developers
 developer.android.com/reference/##article.devsite-article:style(width:100% !important ; margin-left:0px !important)
 developer.android.com##.devsite-notification-eu-cookie.devsite-dialog.devsite-notification-promo
