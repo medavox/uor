@@ -30,7 +30,10 @@ developer.android.com##.devsite-product-id-row
 @@||www.gstatic.com/devrel-devsite/*/css/devsite_code.css$stylesheet,domain=developer.android.com
 @@||www.gstatic.com/devrel-devsite/*/android/css/rebrand-app.css$stylesheet,domain=developer.android.com
 @@||www.gstatic.com/devrel-devsite/*/js/devsite_code_module.js$script,domain=developer.android.com
-!I mean it's a static fucking reference site. You don't need to load 8 JS files asynchronously.
+!I mean it's a static fucking reference site. There's no need to load 8 JS files asynchronously.
+
+!Android Developers Blog
+android-developers.googleblog.com###cookieChoiceInfo
 
 !amazon
 amazon.co.uk##.a-declarative.a-modal-scroller
@@ -55,8 +58,16 @@ www.androidauthority.com##div#sticky-bar.fixed:style(position: static !important
 !answers.yahoo.com
 answers.yahoo.com###yset-search-upsell-container
 
+!Atlas Obscura
+www.atlasobscura.com###cookie-consent-modal
+www.atlasobscura.com##.in.modal-backdrop
+www.atlasobscura.com##body:style(overflow:visible !important)
+
 !BandCamp
 bandcamp.com###salesfeed
+
+!BBC News
+www.bbc.co.uk###breaking-news-container
 
 !blogspot
 blogspot.com,backofthecerealbox.com###cookieChoiceInfo
@@ -73,6 +84,7 @@ cnet.com##.popControls
 cnet.com###uvpJs_1
 cnet.com###uvpJs_1 > .popControls > .dragHandle > .title
 cnet.com##.videoBlocked
+cnet.com##svg
 
 !CNN
 cnn.com###aD3CD
@@ -90,10 +102,18 @@ www.draw.io##.geFooterContainer
 !DuckDuckGo
 duckduckgo.com##.badge-link--newsletter
 
+!Duolingo Forums
+forum.duolingo.com##.ReactModal__Overlay
+forum.duolingo.com##.Sti81
+
 !DZone (annoyingly pestery yet ubiquitous java help site)
 dzone.com###emailSubPanel
 dzone.com##.signin-prompt
 dzone.com##.ng-scope.ng-binding
+
+!FaceBook
+www.facebook.com##*:matches-css(position: fixed):has-text(See more of ):has-text(on Facebook)
+www.facebook.com##div.egoOrganicColumn
 
 !Fandom.com
 fandom.com,wikia.org###WikiaBar
@@ -108,6 +128,7 @@ fandom.com,wikia.org##.wikia-bar-anon
 fandom.com,wikia.org##.wikia-bar-anon.wikia-bar
 fandom.com,wikia.org##body:style(overflow:visible !important)
 fandom.com,wikia.org##div:has(div>div:has-text(This Site Uses Cookies))
+fandom.com,wikia.org###WikiaAdInContentPlaceHolder
 
 !FOSSHub
 www.fosshub.com###adLocation
@@ -117,13 +138,20 @@ gamefaqs.gamespot.com###faq_header_wrap
 
 !GamePedia
 gamepedia.com###tos-banner
+gamepedia.com##[class^=banner_banner]
 
 !Genius Lyrics
 genius.com##apple-music-player
 
+!Google Docs
+docs.google.com##.waffle-assistant-entry-button
+
 !google search
 www.google.co*##div#searchform:style(position:absolute !important)
 www.google.co*##.widget-consent-fullscreen
+www.google.com###lb
+www.google.com###searchform:style(position:absolute !important)
+www.google.com##body:style(overflow:visible !important)
 
 !GitHub
 github.com##div:has(> h4:has-text(Discover repositories))
@@ -132,6 +160,9 @@ github.com##.rounded-1.signup-prompt-bg
 github.com##.sticky-content
 github.com##div.my-2.py-2
 github.com##div.gh-header-shadow:style(position: static !important)
+github.com##.box-shadow.gh-header-shadow
+github.com##.gh-header-sticky:style(position:absolute !important)
+github.com##.signup-prompt
 
 !gitLAB
 gitlab.com##li:has-text(Enable Auto DevOps)
@@ -146,23 +177,40 @@ goodreads.com##.modal
 gradle.org##policy-text
 gradle.org##.ckcontent
 
+!The Guardian
+www.theguardian.com##.site-message--first-pv-consent.js-first-pv-consent-site-message
+www.theguardian.com##.vjs-big-play-button
+www.theguardian.com##.vjs-fullscreen-clickbox
+
 !gumtree
 www.gumtree.com###gdpr-banner
+
+!Hackaday
+hackaday.com##.cookie-notifications
+
+!HowStuffWorks
+!hides the over-expanded SVG icons, making the site usable without javascript
+howstuffworks.com##svg
 
 !HowToGeek
 www.howtogeek.com###czloibebteurjqw
 www.howtogeek.com##.relatedside
 www.howtogeek.com##.relatedside:nth-of-type(3)
 www.howtogeek.com###secondary
+www.howtogeek.com###masthead
+www.howtogeek.com###topmenu
+www.howtogeek.com##div:matches-css(position:fixed)
 
 !IMDB
 www.imdb.com###navProMenu
 
 !Imgur
 imgur.com##.fixed.post-header
+imgur.com###side-gallery
 
 !Instagram
 www.instagram.com##section:has(>div:has(>div:has(>span:has(>div:has-text(Log In to Instagram)))))
+www.instagram.com##*:style(overflow:visible !important)
 
 !Java Code Geeks
 javacodegeeks.com###snppopup-welcome
@@ -175,6 +223,16 @@ javacodegeeks.com##.foobar-container
 !Know Your Meme
 knowyourmeme.com##.floating-keyboard-info
 knowyourmeme.com##.floating-share-bar
+
+!Kotaku
+kotaku.com###js_impactHeaderNav
+kotaku.com###sharingfooter
+kotaku.com##.sharingfooter__wrapper
+
+!Kotlin Expertise
+kotlinexpertise.com###cookie-law-info-bar
+kotlinexpertise.com###ht-masthead
+kotlinexpertise.com###secondary
 
 !last.fm
 www.last.fm##.mpu-subscription-upsell
@@ -225,6 +283,9 @@ metro.co.uk##.zone-post-strip
 !MySpace!
 myspace.com###termsOfService
 
+!New York Times
+www.nytimes.com###gateway-content
+
 !Open University
 www.open.edu##div.header_content.fix-header:style(position:absolute !important)
 
@@ -246,6 +307,11 @@ pastebin.com###notice
 !Pinterest
 www.pinterest.com###desktopWrapper
 www.pinterest.com##.FullPageModal__scroller
+www.pinterest.com##body > div:nth-of-type(1) > div > div > div:nth-of-type(2) > .Hsu.iyn.zI7 > div:nth-of-type(2) > div
+www.pinterest.com##div > div:nth-of-type(1) > .gridCentered
+
+!Polygon
+www.polygon.com###privacy-consent
 
 !Quora
 !latest rules, 17 jan 2019, updated 4 Feb 2019
@@ -269,6 +335,12 @@ www.quora.com##.BelowQuestionAddPrompt
 www.quora.com##.PromptsList
 www.quora.com##.condensed_ad_experiment.PromptsList
 
+!Raising Happy Chickens
+www.raising-happy-chickens.com##.eucookiebar
+www.raising-happy-chickens.com##.modal-backdrop
+www.raising-happy-chickens.com##.modal-content
+www.raising-happy-chickens.com##div[id^=modal]
+
 !reddit
 reddit.com##.listingsignupbar
 reddit.com##.listingsignupbar.infobar
@@ -278,6 +350,12 @@ reddit.com##.seo-comments-flex
 reddit.com##.seo-comments-recommendations.spacer
 reddit.com##.spacer.seo-comments
 www.reddit.com##form:has-text(Cookies help us)
+reddit.com###redesign-beta-optin-btn
+reddit.com##.premium-banner
+www.reddit.com##div[data-redditstyle = true]:has-text(Recommended posts for you)
+
+!Slant
+www.slant.co##.sponsored
 
 !SoundCloud
 soundcloud.com##.m-sidebar
@@ -346,13 +424,30 @@ www.ultimate-guitar.com##article>div>div>div:has-text(Official version created b
 www.ultimate-guitar.com##a[href^="https://www.ultimate-guitar.com/pro"]
 
 
+
 !Urban Dictionary
 !hides giant SVG icons to improve text-only experience
 www.urbandictionary.com##div#urban-top-bar
 www.urbandictionary.com##div.def-panel > div.def-footer
+www.urbandictionary.com###Capa_1
+www.urbandictionary.com##.play-sound
+www.urbandictionary.com##.social-interaction
+www.urbandictionary.com##.svgicon-ud_video
+
+!Vanity Fair
+www.vanityfair.com##.paywall-meter
+
+!Vice
+www.vice.com##div[class^=sp_iframe_container]
+www.vice.com##div[class^=sp_veil]
+www.vice.com##div[id^=sp_message_panel_]
 
 !Vimeo
 vimeo.com##.gdpr_banner
+
+!Vue Cinemas
+www.myvue.com###qb:style(position:static !important)
+www.myvue.com##.overlay-holder:style(position:static !important)
 
 !WatchCartoonOnline.io
 watchcartoononline.io##iframe[src="javascript: frameElement.srcdoc"]
@@ -371,9 +466,14 @@ en.wikipedia.org###frb-nag
 !Wired
 wired.com##.close-container
 wired.com##.cm-failsafe
+wired.com###logo-bar
+wired.com##.post-listing-component__wrapper
+wired.com##.recirc-most-popular__heading
 
 !Yahoo Answers
 answers.yahoo.com###yset-search-upsell-container
+answers.yahoo.com###UH
+answers.yahoo.com##svg
 
 !YouTube
 www.youtube.com###ticker > .ytd-masthead.style-scope
@@ -392,17 +492,32 @@ www.youtube.com##ytd-compact-movie-renderer
 www.youtube.com###merch-shelf
 www.youtube.com##ytd-popup-container.ytd-app.style-scope > .ytd-popup-container.style-scope
 www.youtube.com###button:has-text(/JOIN/i)
+www.youtube.com###clarify-box
+www.youtube.com###dialog
+www.youtube.com###sponsor-button
+www.youtube.com##.ytp-button.ytp-miniplayer-button
+www.youtube.com##button.ytp-cards-button
+www.youtube.com##div.ytp-cards-teaser
+
+!ZDNet
+www.zdnet.com##svg
 
 !smaller sites & misc
 www.ethnologue.com##.recurly-paywall-overlay
 newatlas.com##div>div>div>div>div>span>a:has-text(Continue this time)
 my.tfgm.com###cookiesdirective
 35.225.234.73
+blockadblock.com##+js(bab-defuser.js)
+aeon.co##.newsletter-signup
+screenrant.com###js-gdprForm
+songkick.seetickets.com##.inline.g-countdown-container > .page-countdown
+eu.usatoday.com##header
+www.manchestereveningnews.co.uk##.sharebar
 
 !PatientAccess' obnoxious blog posts, pushed in your face while ordering a presciption. Stop trying to influence me
 app.patientaccess.com##.grid__row--trending
 app.patientaccess.com##.db-trending-topics-wrapper
-
+app.patientaccess.com##.grid__column--12.grid__column--dashboard.grid__column > div > section > .db-pane-header
 
 !todo:pre-emptively block elements whose class name contains the word 'modal'
 
