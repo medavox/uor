@@ -41,4 +41,4 @@ youtube.com##div#related #dismissable:has(#video-title:has-text(/these /i))
 www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/20[012]\d/)
 
 !hide worn-out 'nobody:' jokes
-www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/no(body|[ -]?one) ?:/)
+www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/no(body|[ -]?one) ?:/i)
