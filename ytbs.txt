@@ -41,5 +41,6 @@ youtube.com##div#related #dismissable:has(#video-title:has-text(/here's /i))
 !hide comments that contain any year 2000-2029. eg "Who's here in 2019?"
 www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/20[012]\d/)
 
-!hide worn-out 'nobody:' jokes
+!hide worn-out jokes
 www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/no(body|[ -]?one) ?:/i)
+www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\?\n.+: ?yes/i)
