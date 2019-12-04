@@ -44,7 +44,7 @@ www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-render
 
 !hide worn-out jokes
 www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\bno(body|[ -]?one) ?:/i)
-www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\?\n.+: ?\byes\b/i)
+www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\n.+: ?\byes\b/i)
 
 !you know what, let's just hide all "me:"-format jokes
 www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\bme.?:/i)
