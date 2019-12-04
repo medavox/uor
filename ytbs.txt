@@ -33,9 +33,9 @@ youtube.com###dismissable,a.ytp-videowall-still:has-text(/Prager/i)
 youtube.com##div#related #dismissable:has(#video-title:has-text(/[A-Z]{4,}/))
 
 !another clickbait video blocker: block videos whose titles contain 'this' or 'these'
-youtube.com##div#related #dismissable:has(#video-title:has-text(/this /i))
-youtube.com##div#related #dismissable:has(#video-title:has-text(/these /i))
-youtube.com##div#related #dismissable:has(#video-title:has-text(/here's /i))
+youtube.com##div#related #dismissable:has(#video-title:has-text(/\bthis /i))
+youtube.com##div#related #dismissable:has(#video-title:has-text(/\bthese /i))
+youtube.com##div#related #dismissable:has(#video-title:has-text(/\bhere's /i))
 
 ! channel 'Big Think': worth blocking?
 
