@@ -47,4 +47,4 @@ www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-render
 www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\?\n.+: ?\byes\b/i)
 
 !controversially, hide comments relating to grief and loss of loved ones
-www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\bmy (mum|mom|dad|father|mother|son|daughter|brother|sister|nephew|niece|aunt|uncle|husband|wife|little girl|parent)/i):has-text(/(passed away|died|survive|coma|surger|hospital|birth|born|baby|cancer|church|death|killed|funeral|rest in peace|R\.?I\.?P\.?|dying|remembe?r[ea]nce)/i)
+www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\bmy ([a-zA-Z]{0,10} )? (mum|mom|dad|father|mother|son|daughter|brother|sister|nephew|niece|aunt|uncle|husband|wife|little girl|parent)/i):has-text(/(passed away|died|survive|coma|surger|hospital|birth|born|baby|cancer|church|death|killed|funeral|rest in peace|R\.?I\.?P\.?|dying|remembe?r[ea]nce)/i)
