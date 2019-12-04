@@ -40,8 +40,8 @@ youtube.com##div#related #dismissable:has(#video-title:has-text(/here's /i))
 ! channel 'Big Think': worth blocking?
 
 !hide comments that contain any year 2000-2029. eg "Who's here in 2019?"
-www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/20[012]\d/)
+www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/20[012]\d/):has-text(?)
 
 !hide worn-out jokes
-www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/no(body|[ -]?one) ?:/i)
-www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\?\n.+: ?yes/i)
+www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\bno(body|[ -]?one) ?:/i)
+www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\?\n.+: ?\byes\b/i)
