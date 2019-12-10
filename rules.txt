@@ -111,6 +111,7 @@ forum.duolingo.com##.ReactModal__Overlay
 forum.duolingo.com##.Sti8
 www.duolingo.com##div > div > div > button:has-text(/try plus/i)
 www.duolingo.com##div:has-text(Daily Goal)+div:has(h2:has-text(Using an ad blocker?))
+www.duolingo.com##div:has(>div:has(>img[src*=duo-plus-fly]))
 
 !DZone (annoyingly pestery yet ubiquitous java help site)
 dzone.com###emailSubPanel
