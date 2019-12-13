@@ -2,3 +2,11 @@
 !(achieved by restyling an empty <a> element within the content div to provide the gap
 en.wikipedia.org##div#content.mw-body:style(margin-left: 0.5em !important)
 en.wikipedia.org##a#top:style(width:11em; float:left; height:1050px)
+
+!wikipedia donation nags
+en.wikipedia.org###frbanner3
+en.wikipedia.org###frbanner-main
+en.wikipedia.org###frbanner-window
+en.wikipedia.org###frb-inline
+en.wikipedia.org##.frb-main
+en.wikipedia.org###frb-nag
