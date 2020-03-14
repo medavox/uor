@@ -25,6 +25,8 @@ youtube.com###dismissable,a.ytp-videowall-still:has-text(/DESTROY/)
 youtube.com###dismissable,a.ytp-videowall-still:has-text(/DISMANTLE/)
 youtube.com###dismissable,a.ytp-videowall-still:has-text(/leftists?/i)
 youtube.com###dismissable,a.ytp-videowall-still:has-text(/Prager/i)
+youtube.com###dismissable,a.ytp-videowall-still:has-text(/Richard LaRuina/i)
+youtube.com###dismissable,a.ytp-videowall-still:has-text(/Stephan Erdman/i)
 
 !hide videos that use ALL CAPS in their titles; they 're usually clickbaity bullshit
 !youtube.com###dismissable:has(#video-title:has-text(/[A-Z]{4,}/))
