@@ -140,6 +140,7 @@ fandom.com,wikia.org##.wikia-bar-anon.wikia-bar
 fandom.com,wikia.org##body:style(overflow:visible !important)
 fandom.com,wikia.org##div:has(div>div:has-text(This Site Uses Cookies))
 fandom.com,wikia.org###WikiaAdInContentPlaceHolder
+fandom.com,wikia.org##.banner-notifications-placeholder
 
 !FOSSHub
 www.fosshub.com###adLocation
