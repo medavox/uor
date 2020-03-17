@@ -121,6 +121,7 @@ dzone.com##.ng-scope.ng-binding
 !FaceBook
 www.facebook.com##*:matches-css(position: fixed):has-text(See more of ):has-text(on Facebook)
 www.facebook.com##div.egoOrganicColumn
+www.facebook.com##a:has-text(/Update Info/i) > span:has-text(/\d{1,3}/)
 
 !Fandom.com
 fandom.com,wikia.org###WikiaBar
