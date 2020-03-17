@@ -446,6 +446,9 @@ www.vice.com##div[id^=sp_message_panel_]
 !Vimeo
 vimeo.com##.gdpr_banner
 
+!Vox
+www.vox.com###privacy-consent
+
 !Vue Cinemas
 www.myvue.com###qb:style(position:static !important)
 www.myvue.com##.overlay-holder:style(position:static !important)
