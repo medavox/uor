@@ -120,6 +120,7 @@ www.duolingo.com##div:has(>div:has(>img[src*=duo-plus-fly]))
 dzone.com###emailSubPanel
 dzone.com##.signin-prompt
 dzone.com##.ng-scope.ng-binding
+dzone.com###adtoniq-msgr-bar
 
 !FaceBook
 www.facebook.com##*:matches-css(position: fixed):has-text(See more of ):has-text(on Facebook)
