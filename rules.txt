@@ -165,6 +165,7 @@ www.google.co*##.widget-consent-fullscreen
 www.google.com###lb
 www.google.com###searchform:style(position:absolute !important)
 www.google.com##body:style(overflow:visible !important)
+www.google.com##html:style(overflow:visible !important)
 
 !GitHub
 github.com##div:has(> h4:has-text(Discover repositories))
