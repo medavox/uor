@@ -44,6 +44,7 @@ youtube.com##div#related #dismissable:has(#video-title:has-text(/[A-Z]{4,}/))
 youtube.com##div#related #dismissable:has(#video-title:has-text(/\bthis /i))
 youtube.com##div#related #dismissable:has(#video-title:has-text(/\bthese /i))
 youtube.com##div#related #dismissable:has(#video-title:has-text(/\bhere's /i))
+youtube.com##div#related #dismissable:has(#video-title:has-text(/\bCan you\b/i))
 
 ! channel 'Big Think': worth blocking?
 
