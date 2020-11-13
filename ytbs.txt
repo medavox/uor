@@ -4,6 +4,17 @@
 ! Licence: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Homepage: https://github.com/medavox/uor
 
+#rules moved from the main list
+www.youtube.com##ytd-popup-container.ytd-app.style-scope > .ytd-popup-container.style-scope
+www.youtube.com##.ytp-ce-element-show.ytp-ce-video.ytp-ce-element
+www.youtube.com##.ytp-ce-element
+www.youtube.com###ticker > .ytd-masthead.style-scope
+www.youtube.com###yt-consent-dialog
+www.youtube.com###dialog
+www.youtube.com##ytd-metadata-row-header-renderer
+www.youtube.com###yt-dialog-bg
+
+
 youtube.com###dismissable,a.ytp-videowall-still:has-text(/AmazingAtheist/i)
 youtube.com###dismissable,a.ytp-videowall-still:has-text(/Armoured Skeptic/i)
 youtube.com###dismissable,a.ytp-videowall-still:has-text(/CultOfDusty/i)
