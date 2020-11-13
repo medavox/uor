@@ -473,13 +473,7 @@ answers.yahoo.com###UH
 answers.yahoo.com##svg
 
 !YouTube
-www.youtube.com###ticker > .ytd-masthead.style-scope
-www.youtube.com###yt-consent-dialog
-www.youtube.com###yt-dialog-bg
-www.youtube.com##ytd-metadata-row-header-renderer
-www.youtube.com##.ytp-ce-element
 www.youtube.com##.ytp-cards-teaser-text
-www.youtube.com##.ytp-ce-element-show.ytp-ce-video.ytp-ce-element
 www.youtube.com##ytd-compact-video-renderer:has-text(Recommended)
 www.youtube.com##ytd-compact-video-renderer:has(ytd-badge-supported-renderer:has-text(New))
 www.youtube.com##.iv-promo
@@ -487,10 +481,8 @@ www.youtube.com###watch-checkout-offers
 www.youtube.com###offer-module
 www.youtube.com##ytd-compact-movie-renderer
 www.youtube.com###merch-shelf
-www.youtube.com##ytd-popup-container.ytd-app.style-scope > .ytd-popup-container.style-scope
 www.youtube.com###button:has-text(/JOIN/i)
 www.youtube.com###clarify-box
-www.youtube.com###dialog
 www.youtube.com###sponsor-button
 www.youtube.com##.ytp-button.ytp-miniplayer-button
 www.youtube.com##button.ytp-cards-button
