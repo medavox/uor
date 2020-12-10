@@ -152,6 +152,10 @@ gamefaqs.gamespot.com###faq_header_wrap
 !GamePedia
 gamepedia.com###tos-banner
 gamepedia.com##[class^=banner_banner]
+gamepedia.com##body:style(overflow:visible !important)
+gamepedia.com##div[data-tracking-opt-in-overlay]:has-text(This Site Uses Cookies)
+
+
 
 !Genius Lyrics
 genius.com##apple-music-player
