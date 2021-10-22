@@ -50,13 +50,13 @@ youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-rendere
 !youtube.com###dismissable:has(#video-title:has-text(/[A-Z]{4,}/))
 !only hide videos with titles containing ALL CAPS when they're on the sidebar.
 !if I'm elsewhere, I've probably chosen to view these videos (eg on a channel's Videos page)
-youtube.com##div#related #dismissable:has(#video-title:has-text(/[A-Z]{4,}/))
+youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has(#video-title:has-text(/[A-Z]{4,}/))
 
 !another clickbait video blocker: block videos whose titles contain 'this' or 'these'
-youtube.com##div#related #dismissable:has(#video-title:has-text(/\bthis /i))
-youtube.com##div#related #dismissable:has(#video-title:has-text(/\bthese /i))
-youtube.com##div#related #dismissable:has(#video-title:has-text(/\bhere's /i))
-youtube.com##div#related #dismissable:has(#video-title:has-text(/\bCan you\b/i))
+youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has(#video-title:has-text(/\bthis /i))
+youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has(#video-title:has-text(/\bthese /i))
+youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has(#video-title:has-text(/\bhere's /i))
+youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has(#video-title:has-text(/\bCan you\b/i))
 
 ! channel 'Big Think': worth blocking?
 
