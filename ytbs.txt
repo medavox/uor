@@ -47,6 +47,10 @@ youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-rendere
 !jordan peterson-style advice
 youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has-text(/charisma on command/i)
 
+!this blocks videos by the channel name
+youtube.com##ytd-compact-video-renderer:has(ytd-channel-name:has-text(/fox news/i))
+
+
 !hide videos that use ALL CAPS in their titles; they 're usually clickbaity bullshit
 !youtube.com###dismissable:has(#video-title:has-text(/[A-Z]{4,}/))
 !only hide videos with titles containing ALL CAPS when they're on the sidebar.
