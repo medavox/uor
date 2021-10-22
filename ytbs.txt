@@ -41,6 +41,7 @@ youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-rendere
 youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has-text(/Stephan Erdman/i)
 youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has-text(/Mystery method/i)
 youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has-text(/milo yiannopoulos/i)
+youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has-text(/john campbell/i)
 !a new pseudonym for sargon of akkad
 youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has-text(/thinkery/i)
 !jordan peterson-style advice
@@ -53,9 +54,10 @@ youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-rendere
 youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has(#video-title:has-text(/[A-Z]{4,}/))
 
 !another clickbait video blocker: block videos whose titles contain 'this' or 'these'
-youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has(#video-title:has-text(/\bthis /i))
-youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has(#video-title:has-text(/\bthese /i))
-youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has(#video-title:has-text(/\bhere's /i))
+youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer.style-scope:has-text(/\bthis\b/i)
+youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has(#video-title:has-text(/\bthis\b/i))
+youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has(#video-title:has-text(/\bthese\b/i))
+youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has(#video-title:has-text(/\bhere's\b/i))
 youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has(#video-title:has-text(/\bCan you\b/i))
 
 ! channel 'Big Think': worth blocking?
