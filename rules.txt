@@ -488,7 +488,7 @@ www.youtube.com###merch-shelf
 www.youtube.com###button:has-text(/JOIN/i)
 www.youtube.com###clarify-box
 www.youtube.com###sponsor-button
-www.youtube.com##.ytp-button.ytp-miniplayer-button
+!www.youtube.com##.ytp-button.ytp-miniplayer-button
 www.youtube.com##button.ytp-cards-button
 www.youtube.com##div.ytp-cards-teaser
 
