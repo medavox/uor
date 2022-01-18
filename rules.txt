@@ -62,6 +62,9 @@ www.androidauthority.com##div#sticky-bar.fixed:style(position: static !important
 !answers.yahoo.com
 answers.yahoo.com###yset-search-upsell-container
 
+!Argos; hides out of stock items, because apparently Argos can't do that themselves
+www.argos.co.uk##.styles__LazyHydrateCard-sc-1rzb1sn-0:has(.ProductCardstyles__AvailabilityLabelContainer-h52kot-19:has-text(Out of stock))
+
 !ASDA home delivery
 groceries.asda.com##div.co-product-list > .co-product-list__header:has-text(/sponsored products/i) + .co-product-list__main-cntr
 
