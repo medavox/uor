@@ -1,3 +1,4 @@
+[uBlock Origin]
 ! Title: medavox's uBlock Origin Rules list
 ! Description: Lovingly handcrafted ad- and annoyance-blocking rules by your favourite nobody developer
 ! Expires: 10 days
