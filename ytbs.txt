@@ -1,3 +1,4 @@
+[uBlock Origin]
 ! Title: YouTube Bullshit filter
 ! Description: Hides annoying bullshit content. The sort that talks about taking things back, or making things great again.
 ! Expires: 10 days
