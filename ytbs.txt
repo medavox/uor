@@ -63,6 +63,7 @@ youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\bthis\b/i))
 youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\bthese\b/i))
 youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\bhere's\b/i))
 youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\bCan you\b/i))
+youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\breacts to\b/i))
 
 ! channel 'Big Think': worth blocking?
 
