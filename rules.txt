@@ -375,12 +375,11 @@ soundcloud.com##.usersList__item
 sourceforge.net###newsletter-floating
 
 !stackexchange sites
-superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com###hero-content, #hero-content, #herobox, #newsletter-ad, #herobox-mini, #js-gdpr-consent-banner, #noscript-warning, .js-dismissable-hero, .s-hero--container, .hero-container.s-hero, #clc-tlb, #announcement-banner, #dfp-tlb, .community-bulletin.module, #left-sidebar, #overlay-header, .unread-feature-notice.-feature-notice
-superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##header.top-bar:style(position:absolute !important ; margin-top:0px)
-superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##div#content:style(width: 100% !important)
-superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##.dno.js-feature-notice-dialog.feature-notice-dialog.topbar-dialog
-superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##.mb16
-superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##[data-tracker="cb=1"]
+superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com,apple.stackexchange.com###hero-content, #hero-content, #herobox, #newsletter-ad, #herobox-mini, #js-gdpr-consent-banner, #noscript-warning, .js-dismissable-hero, .s-hero--container, .hero-container.s-hero, #announcement-banner, .community-bulletin.module, #overlay-header, .unread-feature-notice.-feature-notice
+superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com,apple.stackexchange.com##header.top-bar:style(position:absolute !important ; margin-top:0px)
+!superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com,apple.stackexchange.com##div#content:style(width: 100% !important)
+superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com,apple.stackexchange.com##.dno.js-feature-notice-dialog.feature-notice-dialog.topbar-dialog
+superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com,apple.stackexchange.com##[data-tracker="cb=1"]
 
 !pre rule-merger
 !superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com###hero-content
