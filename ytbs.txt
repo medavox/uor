@@ -16,6 +16,108 @@ www.youtube.com###yt-dialog-bg
 ! 21 Jun 2024 https://www.youtube.com
 www.youtube.com###voice-search-button
 
+!rambling to strangers about a family member
+www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/my( late)? (father|dad|mum|mom|mother|mama|momma|grandma|grandmother|grandfather|grandad|pops|wife|husband|brother|grandpops|sister|daughter|\bson\b)/i)
+
+!using a dead relative to fish for sympathy from strangers
+www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/(hospital|cancer|passed away|beloved|\bRIP\b|funeral|divorced|\bdear\b|funerals|miss you|leukaemia|died|heaven\b)/i)
+
+!embarassingly public religiousness
+www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/(God\b|Jesus|Christ)/)
+
+!generic empty statements by old people
+www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/(god bless|I remember)/)
+
+!old (and young) people talking about how old they are. Literally everyone is some number of years old
+www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/[1-9]\d (years|years old|yrs old|yrs)?/i)
+
+!copy-pasted comments by copy-pasted people
+www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/(in|it\'s) 20\d{2}/i)
+www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/brought me here/i)
+
+
+
+youtube.com###content > .ytd-rich-item-renderer.style-scope.style-scope:has-text(/\bthis\b/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has(#video-title:has-text(/\bthis\b/i))
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has(#video-title:has-text(/\bthese\b/i))
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has(#video-title:has-text(/\bhere\'s\b/i))
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has(#video-title:has-text(/\bCan you\b/i))
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has(#video-title:has-text(/\breacts to\b/i))
+
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/AmazingAtheist/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/Armoured Skeptic/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/CultOfDusty/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/Farage/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/SJW/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/Trump/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/republican/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/presidential/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/UKIP/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/jontron/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/joyner lucas/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/remoaner/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/Westmonster/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/sargon/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/Jordan( B\.?)? Peterson/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/Ben Shapiro/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/katie hopkins/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/Apologists?/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/socialists?/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/Jacob Rees-Mogg/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/DESTROY/)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/DISMANTLE/)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/leftists?/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/Prager/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/Richard LaRuina/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/Stephan Erdman/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/Mystery method/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/milo yiannopoulos/i)
+youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/john campbell/i)
+
+! 18 Oct 2024 https://www.youtube.com
+www.youtube.com###comment:style(color: #555 !important)
+
+
+
+! 18 Jan 2025 https://www.youtube.com
+www.youtube.com###expandable-metadata
+www.youtube.com##yt-video-attributes-section-view-model
+
+
+! 21 Jan 2025 https://www.youtube.com
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope
+
+
+
+! 2 Nov 2024 https://www.youtube.com
+www.youtube.com##ytd-feed-nudge-renderer.ytd-item-section-renderer.style-scope
+
+
+! 13 Dec 2024 https://www.youtube.com
+www.youtube.com###panels-full-bleed-container
+
+
+! 5 Sept 2024 https://www.youtube.com
+www.youtube.com##.ytp-ce-element-show.ytp-ce-channel-this.ytp-ce-channel.ytp-ce-element
+
+
+! 28 Aug 2024 https://www.youtube.com pointless skibidi toilet videos that clogged up other searches
+www.youtube.com##ytd-video-renderer.ytd-item-section-renderer.style-scope:has-text(/(skibidi|what if)/i)
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##ytd-video-renderer.ytd-vertical-list-renderer.style-scope > .ytd-video-renderer.style-scope:has-text(/(scientist toilet|skibidi|what if)/i)
+
+
+! 2024-05-15 https://www.youtube.com
+www.youtube.com###dismissible:has-text(/remix/i)
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:nth-of-type(2)
+www.youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-renderer.style-scope
+
+www.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:has-text(/\D1 song/i)
+www.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:has-text(/\D2 songs/i)
+www.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:has-text(/live/i)
+www.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:has-text(/\d{4}/i)
+www.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:has-text(/\'\d{2}/i)
+
 
 youtube.com##ytd-compact-video-renderer:has-text(/AmazingAtheist/i)
 youtube.com##ytd-compact-video-renderer:has-text(/Armoured Skeptic/i)
