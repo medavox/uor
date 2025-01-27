@@ -215,6 +215,10 @@ www.geeksforgeeks.org,peps.python.org##article:style(color: #555 !important)
 www.geeksforgeeks.org##.show-consent.hide-consent.cookie-consent
 www.geeksforgeeks.org##div.text:style(color: #555 !important)
 www.geeksforgeeks.org##li:style(color: #555 !important)
+! 29 Jun 2024 https://www.geeksforgeeks.org
+||media.geeksforgeeks.org/auth-dashboard-uploads/Must-do-coding-questions-with-bg-%281%29.png$image
+||media.geeksforgeeks.org/auth-dashboard-uploads/Must-do-coding-questions-with-bg$image
+www.geeksforgeeks.org##.OINTechPromoRightBarBanner > [href^="https://www.geeksforgeeks.org/must-coding-questions-company-wise/"]
 
 !Genius Lyrics
 genius.com##apple-music-player
@@ -252,6 +256,8 @@ github.com##div.react-code-size-details-in-header.Box-sc-g0xbh4-0:nth-of-type(2)
 github.com##li.A-DSZO.Item__LiBox-sc-yeql7o-0:has-text(/copilot/i)
 ! 8 Oct 2024 https://github.com
 github.com##div.react-code-size-details-in-header > .cXueOk.types__StyledButton-sc-ws60qy-0
+! 4 Jul 2024 -- hide viewed files during code review. Very useful!
+github.com##copilot-diff-entry:has(div[data-file-user-viewed])
 
 
 !gitLAB
