@@ -338,6 +338,9 @@ kotlinexpertise.com###secondary
 www.last.fm##.mpu-subscription-upsell
 www.last.fm##.subscribe-cta
 
+! 30 Jul 2024 https://www.lifewire.com
+www.lifewire.com##.mntl-block.mntl-jwplayer-broad.article__broad-video--jw.comp
+
 !linkedIn
 linkedin.com###advocate-modal
 linkedin.com##.modal-va-fix
@@ -611,6 +614,12 @@ www.youtube.com##div.ytp-cards-teaser
 
 !ZDNet
 www.zdnet.com##svg
+! 26 Jul 2024 https://www.zdnet.com
+www.zdnet.com##.c-shortcodeVideo
+www.zdnet.com##p:has-text(/see/i) > strong
+www.zdnet.com##.g-outer-spacing-bottom-medium.g-outer-spacing-top-medium.g-border-thin-light-bottom.c-shortcodePinbox-textList_floating.c-shortcodePinbox-textList
+www.zdnet.com##div.c-scrollPercent > .c-scrollPercent > .g-grid-container.c-pageArticleSingle > .g-outer-spacing-bottom-large.c-pageArticleSingle_grid.u-grid-columns > .lg\:u-col-3.md\:u-col-6.sm\:u-col-2.c-pageArticleSingle_rightRail
+www.zdnet.com##div.c-scrollPercent > .c-scrollPercent > .g-grid-container.c-pageArticleSingle > .g-outer-spacing-bottom-large.c-pageArticleSingle_grid.u-grid-columns > .lg\:u-col-3.md\:u-col-6.sm\:u-col-2.c-pageArticleSingle_leftRail
 
 !smaller sites & misc
 www.ethnologue.com##.recurly-paywall-overlay
