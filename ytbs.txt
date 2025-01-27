@@ -13,6 +13,8 @@ www.youtube.com###yt-consent-dialog
 www.youtube.com###dialog
 www.youtube.com##ytd-metadata-row-header-renderer
 www.youtube.com###yt-dialog-bg
+! 21 Jun 2024 https://www.youtube.com
+www.youtube.com###voice-search-button
 
 
 youtube.com##ytd-compact-video-renderer:has-text(/AmazingAtheist/i)
