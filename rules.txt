@@ -69,12 +69,14 @@ amazon.co.uk###detail-ilm_div
 amazon.co.uk##.prime-ship-speed
 amazon.co.uk##.s-hawkfire-stripe-container
 amazon.co.uk##.scene_container
-
 ! 1 Nov 2024 https://www.amazon.co.uk
 www.amazon.co.uk##.nav-flyout-ewc-compact.nav-locked.nav-flyout.nav-ewcFlyout.nav-ewc-lazy-align
-
 ! 2 Nov 2024 https://www.amazon.co.uk
 www.amazon.co.uk##body:style(padding-right: 0px !important)
+! 20 Aug 2024 https://www.amazon.co.uk
+www.amazon.co.uk##.a-span-last.a-span5.a-column
+www.amazon.co.uk###typ-body-container > div.celwidget > .a-spacing-base.a-section
+
 
 ! 12 Jun 2024 https://www.androidcentral.com
 www.androidcentral.com##.newsletter-form__wrapper
