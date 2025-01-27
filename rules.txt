@@ -36,6 +36,20 @@ developer.android.com##.devsite-product-id-row
 @@||www.gstatic.com/devrel-devsite/*/js/devsite_code_module.js$script,domain=developer.android.com
 !I mean it's a static fucking reference site. There's no need to load 8 JS files asynchronously.
 
+! 12 Jun 2024 https://developer.android.com
+||www.gstatic.com/devrel-devsite/prod/vdb8b7edfb4ddff7cc584873ed931ccf90318103a0ee4c9544c9cd489a892bff4/android/images/custom/announcement-banner-dark.svg$image
+developer.android.com##div.devsite-banner
+developer.android.com##devsite-header:style(position: relative !important)
+
+! 13 Jun 2024 https://developer.android.com
+developer.android.com###pubmethods > tbody > tr[data-version-deprecated]
+developer.android.com###pubmethods > tbody > tr:matches-attr(data-version-added="/([3-9]\d{1,}|2[7-9])/")
+
+developer.android.com###constants  > tbody > tr[data-version-deprecated]
+developer.android.com###constants  > tbody > tr:matches-attr(data-version-added="/([3-9]\d{1,}|2[7-9])/")
+
+
+
 !Android Developers Blog
 android-developers.googleblog.com###cookieChoiceInfo
 
@@ -56,6 +70,15 @@ amazon.co.uk##.prime-ship-speed
 amazon.co.uk##.s-hawkfire-stripe-container
 amazon.co.uk##.scene_container
 
+! 1 Nov 2024 https://www.amazon.co.uk
+www.amazon.co.uk##.nav-flyout-ewc-compact.nav-locked.nav-flyout.nav-ewcFlyout.nav-ewc-lazy-align
+
+! 2 Nov 2024 https://www.amazon.co.uk
+www.amazon.co.uk##body:style(padding-right: 0px !important)
+
+! 12 Jun 2024 https://www.androidcentral.com
+www.androidcentral.com##.newsletter-form__wrapper
+
 !android Authority
 www.androidauthority.com##div#sticky-bar.fixed:style(position: static !important)
 
@@ -75,6 +98,13 @@ www.atlasobscura.com##body:style(overflow:visible !important)
 
 !BandCamp
 bandcamp.com###salesfeed
+! 2024-04-16 https://fleetfoxes.bandcamp.com
+bandcamp.com##.tos-update.corpbanner
+! 21 Jun 2024 https://godspeedyoublackemperor.bandcamp.com
+bandcamp.com##.corpbanner
+
+! 16 Oct 2024 https://www.bbc.co.uk
+www.bbc.co.uk###features-label-aside-content
 
 !BBC News
 www.bbc.co.uk###breaking-news-container
@@ -82,9 +112,18 @@ www.bbc.co.uk###breaking-news-container
 !blogspot
 blogspot.com,backofthecerealbox.com###cookieChoiceInfo
 
+! 30 Dec 2024 https://boardgamegeek.com
+boardgamegeek.com##gg-support-leaderboard-ad
+boardgamegeek.com##.ng-scope.support-plea-container
+
 !BusinessInsider
 uk.businessinsider.com##.fc-dialog-container.fc-root
 uk.businessinsider.com##.fc-dialog-overlay
+
+! 19 Nov 2024 https://www.buzzfeed.com
+www.buzzfeed.com##.package-new_shoppingWrapper__g7vTW
+www.buzzfeed.com##.recirclist_grid__j_3VE
+www.buzzfeed.com##.recirclist_gridNarrow__ZiBp_
 
 !CNET
 cnet.com###ad_uvpJs_1_player
@@ -111,19 +150,22 @@ www.draw.io##.geFooterContainer
 
 !DuckDuckGo
 duckduckgo.com##.badge-link--newsletter
+! 2024-04-15 https://duckduckgo.com
+duckduckgo.com##.privacy-reminder.dropdown--region.dropdown
+! 2 Dec 2024 https://duckduckgo.com
+duckduckgo.com##.tile:has(a:has(span.tile--img__domain:has-text(youtube.com)))
+duckduckgo.com##.tile:has(a:has(span.tile--img__domain:has-text(/(pinterest\.[a-z.]+|reddit.com|ebay\.[a-z.]+)/)))
 
-!Duolingo Forums
-forum.duolingo.com##.ReactModal__Overlay
-forum.duolingo.com##.Sti8
-www.duolingo.com##div > div > div > button:has-text(/try plus/i)
-www.duolingo.com##div:has-text(Daily Goal)+div:has(h2:has-text(Using an ad blocker?))
-www.duolingo.com##div:has(>div:has(>img[src*=duo-plus-fly]))
 
 !DZone (annoyingly pestery yet ubiquitous java help site)
 dzone.com###emailSubPanel
 dzone.com##.signin-prompt
 dzone.com##.ng-scope.ng-binding
 dzone.com###adtoniq-msgr-bar
+
+! 2 Aug 2024 https://www.eurogamer.net
+www.eurogamer.net##.article-styling.article_body_content > figure
+www.eurogamer.net##aside.aside.recommendation
 
 !FaceBook
 www.facebook.com##*:matches-css(position: fixed):has-text(See more of ):has-text(on Facebook)
@@ -145,6 +187,13 @@ fandom.com,wikia.org##body:style(overflow:visible !important)
 fandom.com,wikia.org##div:has(div>div:has-text(This Site Uses Cookies))
 fandom.com,wikia.org###WikiaAdInContentPlaceHolder
 fandom.com,wikia.org##.banner-notifications-placeholder
+fandom.com##.mcf-wrapper
+fandom.com##.rcs-container
+fandom.com###WikiaBar
+fandom.com##.global-navigation
+fandom.com##.notifications-placeholder
+fandom.com##.page__right-rail
+fandom.com###mw-data-after-content
 
 !FOSSHub
 www.fosshub.com###adLocation
@@ -158,7 +207,14 @@ gamepedia.com##[class^=banner_banner]
 gamepedia.com##body:style(overflow:visible !important)
 gamepedia.com##div[data-tracking-opt-in-overlay]:has-text(This Site Uses Cookies)
 
-
+! 18 Oct 2024 https://www.geeksforgeeks.org
+www.geeksforgeeks.org##.tn_container
+! 28 Jul 2024 https://peps.python.org
+www.geeksforgeeks.org,peps.python.org##article:style(color: #555 !important)
+! 28 Jul 2024 https://www.geeksforgeeks.org
+www.geeksforgeeks.org##.show-consent.hide-consent.cookie-consent
+www.geeksforgeeks.org##div.text:style(color: #555 !important)
+www.geeksforgeeks.org##li:style(color: #555 !important)
 
 !Genius Lyrics
 genius.com##apple-music-player
@@ -184,6 +240,19 @@ github.com##div.gh-header-shadow:style(position: static !important)
 github.com##.box-shadow.gh-header-shadow
 github.com##.gh-header-sticky:style(position:absolute !important)
 github.com##.signup-prompt
+! 12 Dec 2024 https://github.com
+github.com##div.react-code-size-details-in-header:has-text(/copilot/i)
+! 6 Jan 2025 https://github.com
+github.com##.AppHeader-CopilotChat
+! 3 Jun 2024 https://github.com
+github.com##.AppHeader-button--hasIndicator.color-fg-muted.AppHeader-button.Button--medium.Button--secondary.Button--iconOnly.Button
+! 2024-03-11 https://github.com
+github.com##div.react-code-size-details-in-header.Box-sc-g0xbh4-0:nth-of-type(2)
+! 23 Jul 2024 https://github.com
+github.com##li.A-DSZO.Item__LiBox-sc-yeql7o-0:has-text(/copilot/i)
+! 8 Oct 2024 https://github.com
+github.com##div.react-code-size-details-in-header > .cXueOk.types__StyledButton-sc-ws60qy-0
+
 
 !gitLAB
 gitlab.com##li:has-text(Enable Auto DevOps)
@@ -221,6 +290,10 @@ www.howtogeek.com###secondary
 www.howtogeek.com###masthead
 www.howtogeek.com###topmenu
 www.howtogeek.com##div:matches-css(position:fixed)
+! 21 Aug 2024 https://www.howtogeek.com
+www.howtogeek.com##.article-footer
+www.howtogeek.com##.related-single
+www.howtogeek.com##p:style(color: #666 !important)
 
 !IMDB
 www.imdb.com###navProMenu
@@ -288,6 +361,13 @@ metro.co.uk##.video-list
 metro.co.uk###widget-area-article-below-bottom-share
 metro.co.uk##.widget.metro-breaker
 metro.co.uk##.zone-post-strip
+! 10 Dec 2024 https://metro.co.uk
+metro.co.uk##.metro-pull-notification
+
+! 6 Sept 2024 https://www.mirror.co.uk
+www.mirror.co.uk##.pp-prompt
+! 27 Aug 2024 https://www.mirror.co.uk
+www.mirror.co.uk##.css-6ptlyf.qc-cmp-cleanslate
 
 !MySpace!
 myspace.com###termsOfService
@@ -362,6 +442,11 @@ www.reddit.com##form:has-text(Cookies help us)
 reddit.com###redesign-beta-optin-btn
 reddit.com##.premium-banner
 www.reddit.com##div[data-redditstyle = true]:has-text(Recommended posts for you)
+! 28 Oct 2024 https://old.reddit.com
+old.reddit.com##.stickied
+old.reddit.com##.comment:has-text(/automoderator/i)
+! 2024-04-23 https://www.reddit.com
+www.reddit.com##embed-snippet-share-button
 
 !Slant
 www.slant.co##.sponsored
@@ -380,6 +465,9 @@ superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,s
 !superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com,apple.stackexchange.com##div#content:style(width: 100% !important)
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com,apple.stackexchange.com##.dno.js-feature-notice-dialog.feature-notice-dialog.topbar-dialog
 superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com,apple.stackexchange.com##[data-tracker="cb=1"]
+! 2024-03-21 https://stackoverflow.com
+stackexchange.com,stackoverflow.com###newsletter-ad
+stackexchange.com,stackoverflow.com##div#hot-network-questions
 
 !pre rule-merger
 !superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com###hero-content
@@ -398,6 +486,13 @@ superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,s
 !superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com###left-sidebar
 !superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com###overlay-header
 !superuser.com,serverfault.com,stackoverflow.com,askubuntu.com,mathoverflow.net,stackexchange.com##.unread-feature-notice.-feature-notice
+! 19 Nov 2024 https://chat.stackexchange.com
+chat.stackexchange.com##.input-hint-container
+
+! 7 Aug 2024 https://stackoverflow.com
+stackoverflow.com##.s-navigation > .md\:d-none
+! 2024-03-11 https://stackoverflow.com
+stackexchange.com,stackoverflow.com##.mb16.s-anchors__grayscale.s-anchors.s-sidebarwidget__yellow.s-sidebarwidget
 
 !TechCrunch
 techcrunch.com##.close-button
@@ -405,6 +500,9 @@ techcrunch.com##.share-main
 
 !tumblr
 tumblr.com##.road-block
+! 23 Oct 2024 https://www.tumblr.com
+www.tumblr.com##.content-container
+www.tumblr.com##.smX3m.hgN9e.VC_rY.IvzMP
 
 !TV Tropes! even you?!
 tvtropes.org##div:has(div:has(h2:has-text(without ads)))
@@ -460,11 +558,22 @@ www.vox.com###privacy-consent
 www.myvue.com###qb:style(position:static !important)
 www.myvue.com##.overlay-holder:style(position:static !important)
 
+! 8 Oct 2024 https://www.washingtonpost.com
+www.washingtonpost.com##.checkout-paywall-overlay.paywall-overlay.bottom-0.right-0.left-0.fixed
+
 !WatchCartoonOnline.io
 watchcartoononline.io##iframe[src="javascript: frameElement.srcdoc"]
 
 !wikia
 !see Fandom
+
+
+! 29 Nov 2024 https://spaceengineers.wiki.gg
+spaceengineers.wiki.gg###wikigg-satellite-notice
+
+
+! 20 Jan 2025 https://en.wikipedia.org
+en.wikipedia.org##.vector-sticky-header-container.vector-header-container
 
 !Wired
 wired.com##.close-container
