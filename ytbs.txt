@@ -38,10 +38,10 @@ www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-sco
 
 
 youtube.com###content > .ytd-rich-item-renderer.style-scope.style-scope:has-text(/\bthis\b/i)
-youtube.com###content > .ytd-rich-item-renderer.style-scope:has(#video-title:has-text(/\bthis\b/i))
+!youtube.com###content > .ytd-rich-item-renderer.style-scope:has(#video-title:has-text(/\bthis\b/i))
 youtube.com###content > .ytd-rich-item-renderer.style-scope:has(#video-title:has-text(/\bthese\b/i))
 youtube.com###content > .ytd-rich-item-renderer.style-scope:has(#video-title:has-text(/\bhere\'s\b/i))
-youtube.com###content > .ytd-rich-item-renderer.style-scope:has(#video-title:has-text(/\bCan you\b/i))
+!youtube.com###content > .ytd-rich-item-renderer.style-scope:has(#video-title:has-text(/\bCan you\b/i))
 youtube.com###content > .ytd-rich-item-renderer.style-scope:has(#video-title:has-text(/\breacts to\b/i))
 
 youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/AmazingAtheist/i)
