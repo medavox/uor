@@ -163,17 +163,17 @@ youtube.com##ytd-compact-video-renderer:has(ytd-channel-name:has-text(/fox news/
 youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/[A-Z]{4,}/))
 
 !another clickbait video blocker: block videos whose titles contain 'this' or 'these'
-youtube.com##ytd-compact-video-renderer.style-scope:has-text(/\bthis\b/i)
-youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\bthis\b/i))
-youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\bthese\b/i))
-youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\bhere's\b/i))
-youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\bCan you\b/i))
+!youtube.com##ytd-compact-video-renderer.style-scope:has-text(/\bthis\b/i)
+!youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\bthis\b/i))
+!youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\bthese\b/i))
+!youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\bhere's\b/i))
+!youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\bCan you\b/i))
 youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\breacts to\b/i))
 
 ! channel 'Big Think': worth blocking?
 
 !hide comments that contain any year 2000-2029. eg "Who's here in 2019?"
-!his often breaks a lot of innocent comments
+!this often breaks a lot of innocent comments
 !www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/20[012]\d/)
 
 !hide worn-out jokes
@@ -181,7 +181,7 @@ www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-render
 www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\n.+: ?\byes\b/i)
 
 !you know what, let's just hide all "me:"-format jokes
-www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\bme.?:/i)
+!www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\bme.?:/i)
 
 !controversially, hide comments relating to grief and loss of loved ones
 www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\b(my|our) ([a-zA-Z]{0,10} )?(mum|mom|dad|father|mother|son|baby boy|daughter|brother|sister|grand?|nan|nephew|niece|aunt|uncle|husband|wife|little girl|parent)/i):has-text(/\b(passed|died|survive|premature|coma|surger|hospital|nurse|doctor|intensive care|icu|birth|born|baby|cancer|church|death|killed|funeral|rest in peace|R\.?I\.?P\.?|miss you|dying|remembe?r[ea]nce)\b/i)
