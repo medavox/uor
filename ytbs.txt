@@ -35,13 +35,6 @@ www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-sco
 www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/(in|it\'s) 20\d{2}/i)
 www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/brought me here/i)
 
-
-
-youtube.com###content > .ytd-rich-item-renderer.style-scope.style-scope:has-text(/\bthis\b/i)
-!youtube.com###content > .ytd-rich-item-renderer.style-scope:has(#video-title:has-text(/\bthis\b/i))
-youtube.com###content > .ytd-rich-item-renderer.style-scope:has(#video-title:has-text(/\bthese\b/i))
-youtube.com###content > .ytd-rich-item-renderer.style-scope:has(#video-title:has-text(/\bhere\'s\b/i))
-!youtube.com###content > .ytd-rich-item-renderer.style-scope:has(#video-title:has-text(/\bCan you\b/i))
 youtube.com###content > .ytd-rich-item-renderer.style-scope:has(#video-title:has-text(/\breacts to\b/i))
 
 youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/AmazingAtheist/i)
@@ -163,11 +156,6 @@ youtube.com##ytd-compact-video-renderer:has(ytd-channel-name:has-text(/fox news/
 youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/[A-Z]{4,}/))
 
 !another clickbait video blocker: block videos whose titles contain 'this' or 'these'
-!youtube.com##ytd-compact-video-renderer.style-scope:has-text(/\bthis\b/i)
-!youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\bthis\b/i))
-!youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\bthese\b/i))
-!youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\bhere's\b/i))
-!youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\bCan you\b/i))
 youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\breacts to\b/i))
 
 ! channel 'Big Think': worth blocking?
