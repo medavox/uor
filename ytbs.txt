@@ -5,6 +5,10 @@
 ! Homepage: https://github.com/medavox/uor
 
 youtube.com###dismissable,a.ytp-videowall-still:has-text(/AmazingAtheist/i)
+youtube.com###dismissable,a.ytp-videowall-still:has-text(/\bwoke\b/i)
+youtube.com###dismissable,a.ytp-videowall-still:has-text(/\blefties\b/i)
+youtube.com###dismissable,a.ytp-videowall-still:has-text(/\bgervais\b/i)
+youtube.com###dismissable,a.ytp-videowall-still:has-text(/\brogan\b/i)
 youtube.com###dismissable,a.ytp-videowall-still:has-text(/Armoured Skeptic/i)
 youtube.com###dismissable,a.ytp-videowall-still:has-text(/CultOfDusty/i)
 youtube.com###dismissable,a.ytp-videowall-still:has-text(/Farage/i)
@@ -28,6 +32,8 @@ youtube.com###dismissable,a.ytp-videowall-still:has-text(/Prager/i)
 youtube.com###dismissable,a.ytp-videowall-still:has-text(/Richard LaRuina/i)
 youtube.com###dismissable,a.ytp-videowall-still:has-text(/Stephan Erdman/i)
 youtube.com###dismissable,a.ytp-videowall-still:has-text(/Mystery method/i)
+
+!yt-lockup-view-model.ytLockupViewModelWrapper.lockup
 
 !hide videos that use ALL CAPS in their titles; they 're usually clickbaity bullshit
 !youtube.com###dismissable:has(#video-title:has-text(/[A-Z]{4,}/))
