@@ -4,6 +4,7 @@
 ! Licence: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Homepage: https://github.com/medavox/uor
 
+
 #rules moved from the main list
 www.youtube.com##ytd-popup-container.ytd-app.style-scope > .ytd-popup-container.style-scope
 www.youtube.com##.ytp-ce-element-show.ytp-ce-video.ytp-ce-element
@@ -15,55 +16,87 @@ www.youtube.com##ytd-metadata-row-header-renderer
 www.youtube.com###yt-dialog-bg
 
 
-youtube.com##ytd-compact-video-renderer:has-text(/AmazingAtheist/i)
-youtube.com##ytd-compact-video-renderer:has-text(/Armoured Skeptic/i)
-youtube.com##ytd-compact-video-renderer:has-text(/CultOfDusty/i)
-youtube.com##ytd-compact-video-renderer:has-text(/Farage/i)
-youtube.com##ytd-compact-video-renderer:has-text(/SJW/i)
-youtube.com##ytd-compact-video-renderer:has-text(/Trump/i)
-youtube.com##ytd-compact-video-renderer:has-text(/UKIP/i)
-youtube.com##ytd-compact-video-renderer:has-text(/jontron/i)
-youtube.com##ytd-compact-video-renderer:has-text(/joyner lucas/i)
-youtube.com##ytd-compact-video-renderer:has-text(/remoaner/i)
-youtube.com##ytd-compact-video-renderer:has-text(/Westmonster/i)
-youtube.com##ytd-compact-video-renderer:has-text(/sargon/i)
-youtube.com##ytd-compact-video-renderer:has-text(/Jordan( B\.?)? Peterson/i)
-youtube.com##ytd-compact-video-renderer:has-text(/Ben Shapiro/i)
-youtube.com##ytd-compact-video-renderer:has-text(/katie hopkins/i)
-youtube.com##ytd-compact-video-renderer:has-text(/Apologists?/i)
-youtube.com##ytd-compact-video-renderer:has-text(/socialists?/i)
-youtube.com##ytd-compact-video-renderer:has-text(/Jacob Rees-Mogg/i)
-youtube.com##ytd-compact-video-renderer:has-text(/DESTROY/)
-youtube.com##ytd-compact-video-renderer:has-text(/DISMANTLE/)
-youtube.com##ytd-compact-video-renderer:has-text(/leftists?/i)
-youtube.com##ytd-compact-video-renderer:has-text(/Prager/i)
-youtube.com##ytd-compact-video-renderer:has-text(/Richard LaRuina/i)
-youtube.com##ytd-compact-video-renderer:has-text(/Stephan Erdman/i)
-youtube.com##ytd-compact-video-renderer:has-text(/Mystery method/i)
-youtube.com##ytd-compact-video-renderer:has-text(/milo yiannopoulos/i)
-youtube.com##ytd-compact-video-renderer:has-text(/john campbell/i)
+youtube.com##yt-lockup-view-model:has-text(/AmazingAtheist/i)
+youtube.com##yt-lockup-view-model:has-text(/Armoured Skeptic/i)
+youtube.com##yt-lockup-view-model:has-text(/CultOfDusty/i)
+youtube.com##yt-lockup-view-model:has-text(/Farage/i)
+youtube.com##yt-lockup-view-model:has-text(/SJW/i)
+youtube.com##yt-lockup-view-model:has-text(/Trump/i)
+youtube.com##yt-lockup-view-model:has-text(/UKIP/i)
+youtube.com##yt-lockup-view-model:has-text(/jontron/i)
+youtube.com##yt-lockup-view-model:has-text(/joyner lucas/i)
+youtube.com##yt-lockup-view-model:has-text(/remoaner/i)
+youtube.com##yt-lockup-view-model:has-text(/Westmonster/i)
+youtube.com##yt-lockup-view-model:has-text(/sargon/i)
+youtube.com##yt-lockup-view-model:has-text(/Jordan( B\.?)? Peterson/i)
+youtube.com##yt-lockup-view-model:has-text(/Ben Shapiro/i)
+youtube.com##yt-lockup-view-model:has-text(/katie hopkins/i)
+youtube.com##yt-lockup-view-model:has-text(/Apologists?/i)
+youtube.com##yt-lockup-view-model:has-text(/socialists?/i)
+youtube.com##yt-lockup-view-model:has-text(/Jacob Rees-Mogg/i)
+youtube.com##yt-lockup-view-model:has-text(/DESTROY/)
+youtube.com##yt-lockup-view-model:has-text(/DISMANTLE/)
+youtube.com##yt-lockup-view-model:has-text(/leftists?/i)
+youtube.com##yt-lockup-view-model:has-text(/Prager/i)
+youtube.com##yt-lockup-view-model:has-text(/Richard LaRuina/i)
+youtube.com##yt-lockup-view-model:has-text(/Stephan Erdman/i)
+youtube.com##yt-lockup-view-model:has-text(/Mystery method/i)
+youtube.com##yt-lockup-view-model:has-text(/milo yiannopoulos/i)
+youtube.com##yt-lockup-view-model:has-text(/john campbell/i)
 !a new pseudonym for sargon of akkad
-youtube.com##ytd-compact-video-renderer:has-text(/thinkery/i)
+youtube.com##yt-lockup-view-model:has-text(/thinkery/i)
 !jordan peterson-style advice
-youtube.com##ytd-compact-video-renderer:has-text(/charisma on command/i)
+youtube.com##yt-lockup-view-model:has-text(/charisma on command/i)
 
-!this blocks videos by the channel name
-youtube.com##ytd-compact-video-renderer:has(ytd-channel-name:has-text(/fox news/i))
+!this blocks videos by the channel name ( no longer works)
+!youtube.com##yt-lockup-view-model:has(ytd-channel-name:has-text(/fox news/i))
 
+
+youtube.com##yt-lockup-view-model:has-text(/AmazingAtheist/i)
+youtube.com##yt-lockup-view-model:has-text(/\bwoke\b/i)
+youtube.com##yt-lockup-view-model:has-text(/\blefties\b/i)
+youtube.com##yt-lockup-view-model:has-text(/\bgervais\b/i)
+youtube.com##yt-lockup-view-model:has-text(/\brogan\b/i)
+youtube.com##yt-lockup-view-model:has-text(/Armoured Skeptic/i)
+youtube.com##yt-lockup-view-model:has-text(/CultOfDusty/i)
+youtube.com##yt-lockup-view-model:has-text(/Farage/i)
+youtube.com##yt-lockup-view-model:has-text(/SJW/i)
+youtube.com##yt-lockup-view-model:has-text(/Trump/i)
+youtube.com##yt-lockup-view-model:has-text(/UKIP/i)
+youtube.com##yt-lockup-view-model:has-text(/jontron/i)
+youtube.com##yt-lockup-view-model:has-text(/joyner lucas/i)
+youtube.com##yt-lockup-view-model:has-text(/remoaner/i)
+youtube.com##yt-lockup-view-model:has-text(/sargon/i)
+youtube.com##yt-lockup-view-model:has-text(/Jordan( B\.?)? Peterson/i)
+youtube.com##yt-lockup-view-model:has-text(/Ben Shapiro/i)
+youtube.com##yt-lockup-view-model:has-text(/katie hopkins/i)
+youtube.com##yt-lockup-view-model:has-text(/Apologists?/i)
+youtube.com##yt-lockup-view-model:has-text(/socialists?/i)
+youtube.com##yt-lockup-view-model:has-text(/Jacob Rees-Mogg/i)
+youtube.com##yt-lockup-view-model:has-text(/DESTROY/)
+youtube.com##yt-lockup-view-model:has-text(/DISMANTLE/)
+youtube.com##yt-lockup-view-model:has-text(/leftists?/i)
+youtube.com##yt-lockup-view-model:has-text(/Prager/i)
+youtube.com##yt-lockup-view-model:has-text(/Richard LaRuina/i)
+youtube.com##yt-lockup-view-model:has-text(/Stephan Erdman/i)
+youtube.com##yt-lockup-view-model:has-text(/Mystery method/i)
+
+!yt-lockup-view-model.ytLockupViewModelWrapper.lockup
+!yt-lockup-view-model.ytLockupViewModelWrapper.lockup.ytd-item-section-renderer
 
 !hide videos that use ALL CAPS in their titles; they 're usually clickbaity bullshit
 !youtube.com###dismissable:has(#video-title:has-text(/[A-Z]{4,}/))
 !only hide videos with titles containing ALL CAPS when they're on the sidebar.
 !if I'm elsewhere, I've probably chosen to view these videos (eg on a channel's Videos page)
-youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/[A-Z]{4,}/))
+youtube.com##yt-lockup-view-model:has(#video-title:has-text(/[A-Z]{4,}/))
 
 !another clickbait video blocker: block videos whose titles contain 'this' or 'these'
-youtube.com##ytd-compact-video-renderer.style-scope:has-text(/\bthis\b/i)
-youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\bthis\b/i))
-youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\bthese\b/i))
-youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\bhere's\b/i))
-youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\bCan you\b/i))
-youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\breacts to\b/i))
+youtube.com##yt-lockup-view-model:has-text(/\bthis\b/i)
+youtube.com##yt-lockup-view-model:has(#video-title:has-text(/\bthis\b/i))
+youtube.com##yt-lockup-view-model:has(#video-title:has-text(/\bthese\b/i))
+youtube.com##yt-lockup-view-model:has(#video-title:has-text(/\bhere's\b/i))
+youtube.com##yt-lockup-view-model:has(#video-title:has-text(/\bCan you\b/i))
+youtube.com##yt-lockup-view-model:has(#video-title:has-text(/\breacts to\b/i))
 
 ! channel 'Big Think': worth blocking?
 
@@ -72,11 +105,11 @@ youtube.com##ytd-compact-video-renderer:has(#video-title:has-text(/\breacts to\b
 !www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/20[012]\d/)
 
 !hide worn-out jokes
-www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\bno(body|[ -]?one) ?:/i)
-www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\n.+: ?\byes\b/i)
+!www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\bno(body|[ -]?one) ?:/i)
+!www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\n.+: ?\byes\b/i)
 
 !you know what, let's just hide all "me:"-format jokes
-www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\bme.?:/i)
+!www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\bme.?:/i)
 
 !controversially, hide comments relating to grief and loss of loved ones
-www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\b(my|our) ([a-zA-Z]{0,10} )?(mum|mom|dad|father|mother|son|baby boy|daughter|brother|sister|grand?|nan|nephew|niece|aunt|uncle|husband|wife|little girl|parent)/i):has-text(/\b(passed|died|survive|premature|coma|surger|hospital|nurse|doctor|intensive care|icu|birth|born|baby|cancer|church|death|killed|funeral|rest in peace|R\.?I\.?P\.?|miss you|dying|remembe?r[ea]nce)\b/i)
+!www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\b(my|our) ([a-zA-Z]{0,10} )?(mum|mom|dad|father|mother|son|baby boy|daughter|brother|sister|grand?|nan|nephew|niece|aunt|uncle|husband|wife|little girl|parent)/i):has-text(/\b(passed|died|survive|premature|coma|surger|hospital|nurse|doctor|intensive care|icu|birth|born|baby|cancer|church|death|killed|funeral|rest in peace|R\.?I\.?P\.?|miss you|dying|remembe?r[ea]nce)\b/i)
