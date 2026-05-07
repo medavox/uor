@@ -119,7 +119,7 @@ www.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:has-t
 !youtube.com##yt-lockup-view-model:has(ytd-channel-name:has-text(/fox news/i))
 
 !hide videos that use ALL CAPS in their titles; they 're usually clickbaity bullshit
-!youtube.com###dismissable:has(#video-title:has-text(/[A-Z]{4,}/))
+youtube.com###yt-lockup-view-model:has-text(/[A-Z]{4,}/)
 !only hide videos with titles containing ALL CAPS when they're on the sidebar.
 !if I'm elsewhere, I've probably chosen to view these videos (eg on a channel's Videos page)
 youtube.com##yt-lockup-view-model:has(#video-title:has-text(/[A-Z]{4,}/))
