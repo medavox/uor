@@ -190,4 +190,4 @@ www.youtube.com##ytd-video-renderer:has-text(/for kids/i)
 www.youtube.com##yt-lockup-view-model:has(div.ytBadgeShapeText:has-text(New))
 
 !this word is blowing up in rageclickbait circles
-youtube.com##yt-lockup-view-model:has-text(/entitle/i)
+youtube.com##yt-lockup-view-model:has-text(/entitled/i)
