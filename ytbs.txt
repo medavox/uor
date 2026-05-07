@@ -172,3 +172,9 @@ www.youtube.com##yt-lockup-view-model.yt-lockup-view-model--wrapper.lockup.ytd-w
 www.youtube.com##ytd-video-renderer:has(div.yt-badge-shape__text:has-text(SHORTS))
 www.youtube.com##grid-shelf-view-model:has-text(Shorts)
 www.youtube.com##ytd-video-renderer:has-text(/for kids/i)
+
+! 7 May 2026 https://www.youtube.com
+www.youtube.com##yt-lockup-view-model:has(div.ytBadgeShapeText:has-text(New))
+
+!this word is blowing up in rageclickbait circles
+youtube.com##yt-lockup-view-model:has-text(/entitle/i)
