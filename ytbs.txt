@@ -147,3 +147,28 @@ youtube.com##yt-lockup-view-model:has-text(/\breacts to\b/i)
 
 !controversially, hide comments relating to grief and loss of loved ones
 !www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\b(my|our) ([a-zA-Z]{0,10} )?(mum|mom|dad|father|mother|son|baby boy|daughter|brother|sister|grand?|nan|nephew|niece|aunt|uncle|husband|wife|little girl|parent)/i):has-text(/\b(passed|died|survive|premature|coma|surger|hospital|nurse|doctor|intensive care|icu|birth|born|baby|cancer|church|death|killed|funeral|rest in peace|R\.?I\.?P\.?|miss you|dying|remembe?r[ea]nce)\b/i)
+
+
+! 26 Mar 2025 https://www.youtube.com
+www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope > .ytd-watch-next-secondary-results-renderer.style-scope:has-text(/shorts remixing this video/i)
+
+! 23 Jun 2025 https://www.youtube.com
+www.youtube.com##ytd-rich-item-renderer.style-scope:has-text(/members only/i)
+
+! 7 Aug 2025 https://www.youtube.com
+www.youtube.com##.ytd-item-section-renderer.ytGridShelfViewModelGridShelfRow
+
+! 16 Sept 2025 https://www.youtube.com
+www.youtube.com##.ytp-fullscreen-grid
+
+! 9 Dec 2025 https://www.youtube.com
+www.youtube.com##.ytp-ce-element-show.ytp-ce-hide-button-container > toggle-button-view-model
+
+! 17 Mar 2026 https://www.youtube.com
+www.youtube.com##yt-lockup-view-model.yt-lockup-view-model--wrapper.lockup.ytd-watch-next-secondary-results-renderer:has(badge-shape:has-text(/new/i))
+www.youtube.com##yt-lockup-view-model.yt-lockup-view-model--wrapper.lockup.ytd-watch-next-secondary-results-renderer:has(badge-shape:has-text(Shorts))
+
+! 31 Mar 2026 https://www.youtube.com
+www.youtube.com##ytd-video-renderer:has(div.yt-badge-shape__text:has-text(SHORTS))
+www.youtube.com##grid-shelf-view-model:has-text(Shorts)
+www.youtube.com##ytd-video-renderer:has-text(/for kids/i)
