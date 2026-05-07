@@ -5,17 +5,30 @@
 ! Homepage: https://github.com/medavox/uor
 
 
-#rules moved from the main list
-www.youtube.com##ytd-popup-container.ytd-app.style-scope > .ytd-popup-container.style-scope
-www.youtube.com##.ytp-ce-element-show.ytp-ce-video.ytp-ce-element
-www.youtube.com##.ytp-ce-element
-www.youtube.com###ticker > .ytd-masthead.style-scope
+!rules moved from the main list
+!www.youtube.com##ytd-popup-container.ytd-app.style-scope > .ytd-popup-container.style-scope
+!www.youtube.com##.ytp-ce-element-show.ytp-ce-video.ytp-ce-element
+!www.youtube.com##.ytp-ce-element
+!www.youtube.com###ticker > .ytd-masthead.style-scope
 www.youtube.com###yt-consent-dialog
-www.youtube.com###dialog
-www.youtube.com##ytd-metadata-row-header-renderer
-www.youtube.com###yt-dialog-bg
-! 21 Jun 2024 https://www.youtube.com
-www.youtube.com###voice-search-button
+!www.youtube.com###dialog
+!www.youtube.com##ytd-metadata-row-header-renderer
+!www.youtube.com###yt-dialog-bg
+
+www.youtube.com##.ytp-cards-teaser-text
+www.youtube.com##ytd-compact-video-renderer:has-text(Recommended)
+www.youtube.com##ytd-compact-video-renderer:has(ytd-badge-supported-renderer:has-text(New))
+www.youtube.com##.iv-promo
+www.youtube.com###watch-checkout-offers
+www.youtube.com###offer-module
+www.youtube.com##ytd-compact-movie-renderer
+www.youtube.com###merch-shelf
+www.youtube.com###button:has-text(/JOIN/i)
+www.youtube.com###clarify-box
+www.youtube.com###sponsor-button
+!www.youtube.com##.ytp-button.ytp-miniplayer-button
+www.youtube.com##button.ytp-cards-button
+www.youtube.com##div.ytp-cards-teaser
 
 !rambling to strangers about a family member
 www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/my( late)? (father|dad|mum|mom|mother|mama|momma|grandma|grandmother|grandfather|grandad|pops|wife|husband|brother|grandpops|sister|daughter|\bson\b)/i)
@@ -78,43 +91,6 @@ youtube.com##yt-lockup-view-model:has-text(/thinkery/i)
 !jordan peterson-style advice
 youtube.com##yt-lockup-view-model:has-text(/charisma on command/i)
 
-! 18 Oct 2024 https://www.youtube.com
-www.youtube.com###comment:style(color: #555 !important)
-
-! 18 Jan 2025 https://www.youtube.com
-www.youtube.com###expandable-metadata
-www.youtube.com##yt-video-attributes-section-view-model
-
-
-! 21 Jan 2025 https://www.youtube.com
-www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope
-
-! 2 Nov 2024 https://www.youtube.com
-www.youtube.com##ytd-feed-nudge-renderer.ytd-item-section-renderer.style-scope
-
-! 13 Dec 2024 https://www.youtube.com
-www.youtube.com###panels-full-bleed-container
-
-! 5 Sept 2024 https://www.youtube.com
-www.youtube.com##.ytp-ce-element-show.ytp-ce-channel-this.ytp-ce-channel.ytp-ce-element
-
-! 28 Aug 2024 https://www.youtube.com pointless skibidi toilet videos that clogged up other searches
-www.youtube.com##ytd-video-renderer.ytd-item-section-renderer.style-scope:has-text(/(skibidi|what if)/i)
-www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
-www.youtube.com##ytd-video-renderer.ytd-vertical-list-renderer.style-scope > .ytd-video-renderer.style-scope:has-text(/(scientist toilet|skibidi|what if)/i)
-
-
-! 2024-05-15 https://www.youtube.com
-www.youtube.com###dismissible:has-text(/remix/i)
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:nth-of-type(2)
-www.youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-renderer.style-scope
-
-www.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:has-text(/\D1 song/i)
-www.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:has-text(/\D2 songs/i)
-www.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:has-text(/live/i)
-www.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:has-text(/\d{4}/i)
-www.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:has-text(/\'\d{2}/i)
-
 !this blocks videos by the channel name ( no longer works)
 !youtube.com##yt-lockup-view-model:has(ytd-channel-name:has-text(/fox news/i))
 
@@ -148,6 +124,43 @@ youtube.com##yt-lockup-view-model:has-text(/\breacts to\b/i)
 !controversially, hide comments relating to grief and loss of loved ones
 !www.youtube.com##ytd-comment-thread-renderer.style-scope.ytd-item-section-renderer:has-text(/\b(my|our) ([a-zA-Z]{0,10} )?(mum|mom|dad|father|mother|son|baby boy|daughter|brother|sister|grand?|nan|nephew|niece|aunt|uncle|husband|wife|little girl|parent)/i):has-text(/\b(passed|died|survive|premature|coma|surger|hospital|nurse|doctor|intensive care|icu|birth|born|baby|cancer|church|death|killed|funeral|rest in peace|R\.?I\.?P\.?|miss you|dying|remembe?r[ea]nce)\b/i)
 
+! 2024-05-15 https://www.youtube.com
+www.youtube.com###dismissible:has-text(/remix/i)
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:nth-of-type(2)
+www.youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-renderer.style-scope
+
+www.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:has-text(/\D1 song/i)
+www.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:has-text(/\D2 songs/i)
+www.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:has-text(/live/i)
+www.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:has-text(/\d{4}/i)
+www.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:has-text(/\'\d{2}/i)
+
+! 21 Jun 2024 https://www.youtube.com
+www.youtube.com###voice-search-button
+
+! 28 Aug 2024 https://www.youtube.com pointless skibidi toilet videos that clogged up other searches
+www.youtube.com##ytd-video-renderer.ytd-item-section-renderer.style-scope:has-text(/(skibidi|what if)/i)
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##ytd-video-renderer.ytd-vertical-list-renderer.style-scope > .ytd-video-renderer.style-scope:has-text(/(scientist toilet|skibidi|what if)/i)
+
+! 5 Sept 2024 https://www.youtube.com
+www.youtube.com##.ytp-ce-element-show.ytp-ce-channel-this.ytp-ce-channel.ytp-ce-element
+
+! 18 Oct 2024 https://www.youtube.com
+www.youtube.com###comment:style(color: #555 !important)
+
+! 2 Nov 2024 https://www.youtube.com
+www.youtube.com##ytd-feed-nudge-renderer.ytd-item-section-renderer.style-scope
+
+! 13 Dec 2024 https://www.youtube.com
+www.youtube.com###panels-full-bleed-container
+
+! 18 Jan 2025 https://www.youtube.com
+www.youtube.com###expandable-metadata
+www.youtube.com##yt-video-attributes-section-view-model
+
+! 21 Jan 2025 https://www.youtube.com
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope
 
 ! 26 Mar 2025 https://www.youtube.com
 www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope > .ytd-watch-next-secondary-results-renderer.style-scope:has-text(/shorts remixing this video/i)
