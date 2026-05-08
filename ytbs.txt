@@ -6,14 +6,15 @@
 
 
 !rules moved from the main list
-!www.youtube.com##ytd-popup-container.ytd-app.style-scope > .ytd-popup-container.style-scope
+www.youtube.com##.ytp-ce-element-show.ytp-ce-large-round.ytp-ce-playlist.ytp-ce-element
+www.youtube.com##ytd-popup-container.ytd-app.style-scope > .ytd-popup-container.style-scope
 !www.youtube.com##.ytp-ce-element-show.ytp-ce-video.ytp-ce-element
 !www.youtube.com##.ytp-ce-element
-!www.youtube.com###ticker > .ytd-masthead.style-scope
+www.youtube.com###ticker > .ytd-masthead.style-scope
 www.youtube.com###yt-consent-dialog
-!www.youtube.com###dialog
-!www.youtube.com##ytd-metadata-row-header-renderer
-!www.youtube.com###yt-dialog-bg
+www.youtube.com###dialog
+www.youtube.com##ytd-metadata-row-header-renderer
+www.youtube.com###yt-dialog-bg
 
 www.youtube.com##.ytp-cards-teaser-text
 www.youtube.com##ytd-compact-video-renderer:has-text(Recommended)
@@ -26,7 +27,7 @@ www.youtube.com###merch-shelf
 www.youtube.com###button:has-text(/JOIN/i)
 www.youtube.com###clarify-box
 www.youtube.com###sponsor-button
-!www.youtube.com##.ytp-button.ytp-miniplayer-button
+www.youtube.com##.ytp-button.ytp-miniplayer-button
 www.youtube.com##button.ytp-cards-button
 www.youtube.com##div.ytp-cards-teaser
 
@@ -191,3 +192,6 @@ www.youtube.com##yt-lockup-view-model:has(div.ytBadgeShapeText:has-text(New))
 
 !this word is blowing up in rageclickbait circles
 youtube.com##yt-lockup-view-model:has-text(/entitled/i)
+
+! 7 May 2026 https://www.youtube.com
+www.youtube.com##yt-lockup-view-model:has-text(/[A-Z]{5,}/)
