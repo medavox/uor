@@ -37,7 +37,7 @@ www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-sco
 !using a dead relative to fish for sympathy from strangers
 www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/(hospital|cancer|passed away|beloved|\bRIP\b|funeral|divorced|\bdear\b|funerals|miss you|leukaemia|died|heaven\b)/i)
 
-!embarassingly public religiousness
+!embarassing public religiousness
 www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/(God\b|Jesus|Christ)/)
 
 !generic empty statements by old people
@@ -84,8 +84,8 @@ youtube.com##yt-lockup-view-model:has-text(/Westmonster/i)
 youtube.com##yt-lockup-view-model:has-text(/woke/)
 youtube.com##yt-lockup-view-model:has-text(/milo yiannopoulos/i)
 youtube.com##yt-lockup-view-model:has-text(/john campbell/i)
-youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/republican/i)
-youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/presidential/i)
+youtube.com###yt-lockup-view-model:has-text(/republican/i)
+youtube.com###yt-lockup-view-model:has-text(/presidential/i)
 
 !a pseudonym for sargon of akkad
 youtube.com##yt-lockup-view-model:has-text(/thinkery/i)
@@ -133,8 +133,8 @@ www.youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-rend
 www.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:has-text(/\D1 song/i)
 www.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:has-text(/\D2 songs/i)
 www.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:has-text(/live/i)
-www.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:has-text(/\d{4}/i)
-www.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:has-text(/\'\d{2}/i)
+!www.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:has-text(/\d{4}/i)
+!www.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:has-text(/\'\d{2}/i)
 
 ! 21 Jun 2024 https://www.youtube.com
 www.youtube.com###voice-search-button
