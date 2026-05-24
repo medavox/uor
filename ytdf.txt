@@ -1,3 +1,4 @@
+[Adblock Plus 2.0; uBlock Origin]
 ! Title: YouTube Distraction-Free emulation
 ! Description: Hides distracting or annoying YouTube UI elements.
 ! Expires: 10 days

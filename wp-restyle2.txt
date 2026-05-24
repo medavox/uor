@@ -1,3 +1,4 @@
+[uBlock Origin]
 !simpler wikipedia restyle: flow the article around the sidebar
 !(achieved by restyling an empty <a> element within the content div to provide the gap
 en.wikipedia.org##div#content.mw-body:style(margin-left: 0.5em !important)
