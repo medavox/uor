@@ -32,23 +32,23 @@ www.youtube.com##button.ytp-cards-button
 www.youtube.com##div.ytp-cards-teaser
 
 !rambling to strangers about a family member
-www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/my( late)? (father|dad|mum|mom|mother|mama|momma|grandma|grandmother|grandfather|grandad|pops|wife|husband|brother|grandpops|sister|daughter|\bson\b)/i)
+!www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/my( late)? (father|dad|mum|mom|mother|mama|momma|grandma|grandmother|grandfather|grandad|pops|wife|husband|brother|grandpops|sister|daughter|\bson\b)/i)
 
 !using a dead relative to fish for sympathy from strangers
-www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/(hospital|cancer|passed away|beloved|\bRIP\b|funeral|divorced|\bdear\b|funerals|miss you|leukaemia|died|heaven\b)/i)
+!www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/(hospital|cancer|passed away|beloved|\bRIP\b|funeral|divorced|\bdear\b|funerals|miss you|leukaemia|died|heaven\b)/i)
 
 !embarassing public religiousness
-www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/(God\b|Jesus|Christ)/)
+!www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/(God\b|Jesus|Christ)/)
 
 !generic empty statements by old people
-www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/(god bless|I remember)/)
+!www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/(god bless|I remember)/)
 
 !old (and young) people talking about how old they are. Literally everyone is some number of years old
-www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/[1-9]\d (years|years old|yrs old|yrs)?/i)
+!www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/[1-9]\d (years|years old|yrs old|yrs)?/i)
 
 !copy-pasted comments by copy-pasted people
-www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/(in|it\'s) 20\d{2}/i)
-www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/brought me here/i)
+!www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/(in|it\'s) 20\d{2}/i)
+!www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(/brought me here/i)
 
 youtube.com###content > .ytd-rich-item-renderer.style-scope:has(#video-title:has-text(/\breacts to\b/i))
 
